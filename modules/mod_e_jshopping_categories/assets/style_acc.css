@@ -1,0 +1,61 @@
+.parent_image { width:10px; height:100%;display:inline-block;}
+.acc_menu_jshopping .closed >.parent_image { background:url(images/plus_16.png) 0px 50% no-repeat; width: 18px; height: 28px; float: right;}
+.acc_menu_jshopping .open >.parent_image { background:url(images/minus_16.png) 0px 50% no-repeat; width: 18px; height: 28px; float: right;}
+.acc_menu_jshopping ul.menu	li.hidden {display:none;}
+
+.acc_menu_jshopping span.counter, .acc_menu_jshopping span.parent_image { margin-left:3px !important}		
+
+.acc_menu_jshopping > ul.menu {padding:0 !important;}
+.acc_menu_jshopping ul.menu > li.item1 ul#slave2, 
+.acc_menu_jshopping ul.menu > li.item1 li.item2 > ul#slave3, 
+.acc_menu_jshopping ul.menu >li.item2 li.item3 > ul#slave4
+{ 
+	padding-left:10px !important;
+	background:none !important;
+	
+}
+.acc_menu_jshopping > ul.menu > li.item1 
+{
+	border-bottom:1px solid #333 !important;
+	padding:0 !important;
+	margin:0px !important;
+	background:none !important;
+}
+
+.acc_menu_jshopping > ul.menu  li.item1, 
+.acc_menu_jshopping > ul.menu  li.item2, 
+.acc_menu_jshopping > ul.menu  li.item3 
+{
+	list-style-type: none !important;
+	padding:0 !important;
+	margin:0px !important;
+}
+.acc_menu_jshopping > ul.menu  li.item1 > a, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2 > a, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2 li.item3 > a 
+{
+	background:none !important;
+	padding:7px 0px !important;
+	margin:0px !important;
+	font-weight:bold !important;
+	font-size: 1.1em;
+}
+.acc_menu_jshopping > ul.menu  li.item1.current > a, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2.current > a, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2 li.item3.current > a 
+{
+	background:none !important;
+	font-weight:bold !important;
+	color: #950000;
+}
+.acc_menu_jshopping > ul.menu  li.item1.current, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2.current, 
+.acc_menu_jshopping > ul.menu li.item1 li.item2 li.item3.current 
+{
+	background:none !important;
+	font-weight:normal !important;
+}
+
+img.ecatimage {
+    padding: 0 3px 0px 0px;
+}

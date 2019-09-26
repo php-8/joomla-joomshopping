@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site">
+    <name>JoomShopping - Search++</name>
+    <author>Garry</author>
+    <creationDate>26.01.2019</creationDate>
+    <copyright>copyright joom-shopping.com</copyright>
+    <license>Open Source License, GNU/GPL</license>
+    <authorEmail>info@joom-shopping.com</authorEmail>
+    <authorUrl>https://joom-shopping.com</authorUrl>
+    <version>1.1.9</version>
+    <description>JoomShopping - Search++ module</description>
+    <files>
+        <filename module="mod_addon_search_plus_plus">mod_addon_search_plus_plus.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="default_search_type"
+                    type="list"
+                    default="all"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_DEFAULT_SEARCH_TYPE"
+                >
+                    <option value="any">MOD_ADDON_SEARCH_PLUS_PLUS_ANY_WORDS</option>
+                    <option value="all">MOD_ADDON_SEARCH_PLUS_PLUS_ALL_WORDS</option>
+                    <option value="exact">MOD_ADDON_SEARCH_PLUS_PLUS_EXACT_PHRASE</option>
+                </field>
+                <field
+                    name="advanced_search_link"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_ADVANCED_SEARCH_LINK"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="products_per_query"
+                    type="text"
+                    default="100"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_PRODUCTS_PER_QUERY_TO_DB"
+                />
+                <field
+                    name="sitelinks"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_SITELINKS_SEARCH_BOX"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="reset_search"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_RESET_SEARCH_BUTTON"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    type="note"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_FILTERS"
+                />
+                <field
+                    name="filter_search_type"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_SEARCH_TYPE"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_categories"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_CATEGORIES"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_manufacturers"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MANUFACTURERS"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_price_from"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_PRICE_FROM"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_price_to"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_PRICE_TO"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_date_from"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_DATE_FROM"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="filter_date_to"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_DATE_TO"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    type="note"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_RESULTS"
+                />
+                <field
+                    name="results_popup"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_POPUP"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="results_suggestions"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_SUGGESTIONS"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="suggestions_max_qty"
+                    type="text"
+                    default="10"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MAX_QUANTITY"
+                />
+                <field
+                    name="results_categories"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_CATEGORIES"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                
+                <field
+                    name="categories_max_qty"
+                    type="text"
+                    default="10"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MAX_QUANTITY"
+                />
+                <field
+                    name="result_search_in_category"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_CATEGORIES_IN"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="results_manufacturers"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MANUFACTURERS"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="manufacturers_max_qty"
+                    type="text"
+                    default="10"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MAX_QUANTITY"
+                />
+                <field
+                    name="result_search_in_manufacturers"
+                    type="radio"
+                    default="0"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_MANUFACTURERS_IN"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="add_to_cart"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_ADD_TO_CART_BUTTON"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="add_to_wishlist"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_ADD_TO_WISHLIST_BUTTON"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+                <field
+                    name="results_max_qty"
+                    type="text"
+                    default="10"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_RESULTS_MAX_QUANTITY"
+                />
+                <field
+                    name="show_all_results_link"
+                    type="radio"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                    label="MOD_ADDON_SEARCH_PLUS_PLUS_ALL_RESULTS_LINK"
+                >
+                    <option value="1">JSHOW</option>
+                    <option value="0">JHIDE</option>
+                </field>
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+                />
+                <field
+                    name="moduleclass_sfx"
+                    type="textarea" rows="3"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+                />
+                <field
+                    name="cache"
+                    type="list"
+                    default="1"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    description="COM_MODULES_FIELD_CACHING_DESC"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="text"
+                    default="900"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+                />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="static"
+                >
+                    <option value="static"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

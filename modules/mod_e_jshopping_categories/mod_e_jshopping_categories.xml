@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.6.0" client="site" method="upgrade">
+	<name>Ice Jshopping Categories</name>
+    <creationDate>01 August 2011</creationDate>
+    <author>IceTheme</author>
+    <authorEmail>info@icetheme.com</authorEmail>
+    <authorUrl>http://www.icetheme.com</authorUrl>
+    <copyright></copyright>
+    <license>Open Source License, GNU GPL</license>
+    <version>1.0.0</version>
+	<description>MODULE_DESC</description>
+	<files>
+		<filename module="mod_e_jshopping_categories">mod_e_jshopping_categories.php</filename>
+		<folder module="mod_e_jshopping_categories">libs</folder>
+        <folder module="mod_e_jshopping_categories">assets</folder>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_e_jshopping_categories.ini</language>
+		<language tag="de-DE">de-DE.mod_e_jshopping_categories.ini</language>
+		<language tag="ru-RU">ru-RU.mod_e_jshopping_categories.ini</language>
+	</languages>     
+    <config>
+        <fields name="params">
+            <fieldset name="basic"> 
+			    <field
+				name="sort"
+				type="list"
+				default="id"
+				label="SORT"
+				description="SORT_CATEGORIES">
+                    <option value="id">ID</option>
+                    <option value="name">NAME</option>
+                    <option value="order">ORDERING</option>                        
+				</field>
+				<field
+				name="ordering"
+				type="list"
+				default="asc"
+				label="SORT"
+				description="SORT CATEGORIES BY">
+                    <option value="asc">ASCENDING</option>
+                    <option value="desc">DESCENDING</option>
+				</field>
+				<field
+				name="view"
+				type="list"
+				default="dropdown"
+				label="VIEW"
+				description="VIEW_DESC">
+                    <option value="dropdown">DROPDOWN</option>
+                    <option value="accordion">ACCORDION</option>
+				</field>
+				<field 
+				name="show_image" 
+				type="radio" 
+				default="1" 
+				class="btn-group"
+				label="SHOW_IMAGE" 
+				description="SHOW_IMAGE_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+				</field>
+				<field name="image_width" type="text" default="20" label="IMAGE_MAIN_WIDTH" description="IMAGE_MAIN_WIDTH_DESC" size="5" />
+				<field name="image_height" type="text" default="20" label="IMAGE_MAIN_HEIGHT" description="IMAGE_MAIN_HEIGHT_DESC" size="5" />
+				<field 
+				name="showcounter" 
+				type="radio" 
+				class="btn-group"
+				default="1" 
+				label="COUNTER" 
+				description="COUNTER_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+				</field>
+				<field
+				name="parent"
+				type="radio"
+				default="1"
+				class="btn-group"
+				label="PARENT"
+				description="PARENT_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+				</field>
+				<field
+				name="style_module"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="STYLE"
+				description="STYLE_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+				</field>
+				<field name="moduleclass_sfx" type="text" default="_menu" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>     
+</extension>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>com_jssyncclient</name>
+	<author>ChiefRed</author>
+	<creationDate>April 2019</creationDate>
+	<copyright>(C) 2019 - 9999 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<authorEmail>just@chiefred.com</authorEmail>
+	<authorUrl>chiefred.com</authorUrl>
+	<version>1.0.0</version>
+	<description>JoomShoping Syncronize API Client Side Component (from vce-o-printere.ru)</description>
+	<files>
+		<filename>jssyncclient.php</filename>
+	</files>
+</extension>

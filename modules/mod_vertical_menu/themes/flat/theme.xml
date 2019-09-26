@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<params>
+		<param if="themeskin" label="Color scheme" name="themeskin" size="5" type="offlajnskin">
+			<default>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/default.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"50px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#14CAB3-#00A9AC</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<filtericon>/modules/mod_vertical_menu/themes/flat/images/filter/filter-2.png</filtericon>
+				<reseticon>/modules/mod_vertical_menu/themes/flat/images/reset/reset-7.png</reseticon>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#4C7675","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#4C7675"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#90B2B2","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#90B2B2"},"Hover":{"color":"#90B2B2"}}</level1descfont>
+				<level1countgrad>1-#14CAB3-#00A9AC</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676|*|</level1plus>
+			</default>
+			<green>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/green.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#9CBF3D-#85A72E</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#9CBF3D|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#85A72E","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#85A72E"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</green>
+			<sunny>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/sunny.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#F6B63A-#DD9B2B</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#F6B63A|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#DD9B2B","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#DD9B2B"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</sunny>
+			<orange>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/orange.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#EF8642-#D76F32</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#EF8642|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#D76F32","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#D76F32"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</orange>
+			<red>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/red.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#E15544-#C64130</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#E15544|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#C64130","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#C64130"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</red>
+			<magenta>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/magenta.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#BF4E79-#A54167</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#BF4E79|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#A54167","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#A54167"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</magenta>
+			<purple>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/purple.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#8868C9-#7657B5</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#8868C9|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#7657B5","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#7657B5"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</purple>
+			<lightblue>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/lightblue.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#2699C8-#1882AC</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#2699C8|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#1882AC","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#1882AC"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</lightblue>
+			<darkblue>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darkblue.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#3C5569-#31485A</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#3C5569|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#31485A","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#31485A"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</darkblue>
+			<lightgreen>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/lightgreen.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#1BB869-#119F57</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#1BB869|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#119F57","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#119F57"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</lightgreen>
+			<cyan>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/cyan.png</preview>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px|*|</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","color":"#FFFFFF","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"70px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#14CAB3-#00A9AC</titlegradient>
+				<filtercolor>#ffffff|*|#e8f1f0</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#14CAB3|*|rgba(255, 255, 255, 0.01)|*|</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#6a7373","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{"color":"#6a7373"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","color":"#00A9AC","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{"color":"#00A9AC"},"Hover":{"color":"#ffffff"}}</level1descfont>
+				<level1countgrad>1-rgba(0, 0, 0, 0.5)-rgba(0, 0, 0, 0.5)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#6a7373|*|#ffffff|*|</level1plus>
+			</cyan>
+			<redalert>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/redalert.png</preview>
+				<sidebar_icon>#ffffff|*|rgba(0, 0, 0, 0.50)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"Text":{"color":"#ffffff","tshadow":"0||px|*|1||px|*|0||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"50px"}}</titlefont>
+				<titlegradient>1-#ce2525-#db4646</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#fcfcfc|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(0, 0, 0, 0)|*|rgba(0, 0, 0, 0.02)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"color":"#6b6b6b","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0"},"Active":{},"Hover":{"color":"#db4646"}}</level1font>
+				<level1descfont>{"Text":{"color":"#c48d8d","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#ce2525-#db4646</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/big_right.png|*|right|*|#c48d8d|*|#c48d8d</level1plus>
+			</redalert>
+			<darktitlecyan>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darktitlecyan.png</preview>
+				<sidebar_icon>#f2f2f2|*|#14cab3|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"color":"#ffffff","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"50px"}</titlefont>
+				<titlegradient>1-#4f4f4f-#444444</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#f9f9f9|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"color":"#6b6b6b","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"color":"#6dcec1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#4f4f4f-#444444</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676</level1plus>
+			</darktitlecyan>
+			<darktitlepurple>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darktitlepurple.png</preview>
+				<sidebar_icon>#f2f2f2|*|#9d6fbf|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"23||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"50px","family":"Montserrat","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#4f4f4f-#444444</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#f9f9f9|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"15||px","color":"#6b6b6b","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"11||px","color":"#aa89c4","italic":"1","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#4f4f4f-#444444</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676</level1plus>
+			</darktitlepurple>
+			<darktitlemagenta>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darktitlemagenta.png</preview>
+				<sidebar_icon>#f2f2f2|*|#bf6f9e|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"23||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"50px","family":"Montserrat","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#4f4f4f-#444444</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#f9f9f9|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"15||px","color":"#6b6b6b","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"11||px","color":"#bf8daa","italic":"1","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#4f4f4f-#444444</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676</level1plus>
+			</darktitlemagenta>
+			<darktitleblue>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darktitleblue.png</preview>
+				<sidebar_icon>#f2f2f2|*|#6f87bf|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"23||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"50px","family":"Montserrat","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#4f4f4f-#444444</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#f9f9f9|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"15||px","color":"#6b6b6b","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"11||px","color":"#899bc4","italic":"1","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#4f4f4f-#444444</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676</level1plus>
+			</darktitleblue>
+			<darktitlegreen>
+				<preview>modules/mod_vertical_menu/params/images/flat_skins/darktitlegreen.png</preview>
+				<sidebar_icon>#f2f2f2|*|#80bf6f|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<titlefont>{"Text":{"type":"latin","size":"23||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"50px","family":"Montserrat","subset":"latin","textdecor":"300"}}</titlefont>
+				<titlegradient>1-#4f4f4f-#444444</titlegradient>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>#f9f9f9|*|rgba(11, 12, 12, 0.03)</filtercolor>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"15||px","color":"#6b6b6b","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"11||px","color":"#91ba86","italic":"1","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Montserrat","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-#4f4f4f-#444444</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676</level1plus>
+			</darktitlegreen>
+		</param>
+		<param description="" if="treeskin" label="Color scheme" name="treeskin" size="5" type="offlajnskin">
+			<green>
+				<sitebg>#444444</sitebg>
+				<menubg>#f6f6f6</menubg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.5)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>0|*|0|*|0|*|0|*|px|*|</borderradius>
+				<titlefont>{"Text":{"size":"20||px","color":"#ffffff","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1|*|","lineheight":"70px","textdecor":"400"}}</titlefont>
+				<titlegradient>1-#9cbf3d-#9cbf3d</titlegradient>
+				<filtercolor>#f4f4f4|*|rgba(0, 0, 0, 0.0)|*|</filtercolor>
+				<opened>1</opened>
+				<level1>1</level1>
+				<level1gradient>1-#ffffff-#ffffff</level1gradient>
+				<level1bg>#9cbf3d|*|#9cbf3d|*|</level1bg>
+				<level1border>rgba(0, 0, 0, 0.06)|*|rgba(0, 0, 0, 0)|*|</level1border>
+				<level1padding>7|*|15|*|7|*|15|*|px|*|</level1padding>
+				<level1font>{"Text":{"size":"15||px","color":"#6a6a6a","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|0||px|*|0||px|*|#000000|*|0|*|","lineheight":"30px","textdecor":"400"},"Active":{"color":"#ffffff","tshadow":"0||px|*|1||px|*|1||px|*|rgba(0,0,0,0.2)|*|1|*|"},"Hover":{"color":"#ffffff","tshadow":"0||px|*|1||px|*|1||px|*|rgba(0,0,0,0.2)|*|1|*|"}}</level1font>
+				<level1descfont>{"Text":{"size":"13||px","color":"#90b2b2","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0|*|","lineheight":"normal","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<level1countgrad>1-rgba(1, 1, 1, 0.6)-rgba(1, 1, 1, 0.6)</level1countgrad>
+				<level1plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|rgba(1, 1, 1, 0.6)|*|rgba(1, 1, 1, 0.6)|*|</level1plus>
+				<level2>2</level2>
+				<level2gradient>1-#ffffff-#ffffff</level2gradient>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level2border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level2border>
+				<level2padding>7|*|15|*|7|*|30|*|px|*|</level2padding>
+				<level2font>{"Text":{"size":"13||px","color":"#5e5e5e","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0|*|","lineheight":"20px","textdecor":"400"},"Active":{"color":"#9cbf3d "},"Hover":{"color":"#9cbf3d "}}</level2font>
+				<level2descfont>{"Text":{"size":"12||px","color":"#90b2b2","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0|*|","lineheight":"normal","textdecor":"400"},"Active":{},"Hover":{}}</level2descfont>
+				<level2countgrad>1-rgba(1, 1, 1, 0.6)-rgba(1, 1, 1, 0.6)</level2countgrad>
+				<level2plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|rgba(0, 0, 0, 0)|*|rgba(0, 0, 0, 0)|*|</level2plus>
+				<level3>3</level3>
+				<level3gradient>1-#ffffff-#ffffff</level3gradient>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+				<level3border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level3border>
+				<level3padding>7|*|15|*|7|*|60|*|px|*|</level3padding>
+				<level3font>{"Text":{"size":"11||px","color":"#4c4c4c","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0|*|","lineheight":"13px","textdecor":"400"},"Active":{"color":"#4c4c4c","textdecor":"600"},"Hover":{"color":"#4c4c4c","textdecor":"600"}}</level3font>
+				<level3descfont>{"Text":{"size":"13||px","color":"#90b2b2","italic":"0","underline":"0","align":"left","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0|*|","lineheight":"normal","textdecor":"400"},"Active":{},"Hover":{}}</level3descfont>
+				<level3countgrad>1-rgba(1, 1, 1, 0.6)-rgba(1, 1, 1, 0.6)</level3countgrad>
+				<level3plus>/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|1|*|</level3plus>
+			</green>
+			<lightgreen>
+				<titlegradient>1-#1bb869-#1bb869</titlegradient>
+				<level1>1</level1>
+				<level1bg>#1bb869|*|#1bb869|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</lightgreen>
+			<lightblue>
+				<titlegradient>1-#2699c8-#2699c8</titlegradient>
+				<level1>1</level1>
+				<level1bg>#2699c8|*|#2699c8|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</lightblue>
+			<darkblue>
+				<titlegradient>1-#3c5569-#3c5569</titlegradient>
+				<level1>1</level1>
+				<level1bg>#3c5569|*|#3c5569|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</darkblue>
+			<sunny>
+				<titlegradient>1-#f6b63a-#f6b63a</titlegradient>
+				<level1>1</level1>
+				<level1bg>#f6b63a|*|#f6b63a|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</sunny>
+			<orange>
+				<titlegradient>1-#ef8642-#ef8642</titlegradient>
+				<level1>1</level1>
+				<level1bg>#ef8642|*|#ef8642|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</orange>
+			<red>
+				<titlegradient>1-#e15544-#e15544</titlegradient>
+				<level1>1</level1>
+				<level1bg>#e15544|*|#e15544|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</red>
+			<magenta>
+				<titlegradient>1-#bf4e79-#bf4e79</titlegradient>
+				<level1>1</level1>
+				<level1bg>#bf4e79|*|#bf4e79|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</magenta>
+			<purple>
+				<titlegradient>1-#8868c9-#8868c9</titlegradient>
+				<level1>1</level1>
+				<level1bg>#8868c9|*|#8868c9|*|</level1bg>
+				<level2>2</level2>
+				<level2bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level2bg>
+				<level3>3</level3>
+				<level3bg>#ffffff|*|rgba(0, 0, 0, 0)|*|</level3bg>
+			</purple>
+		</param>
+		<param label="Font scheme" name="fontskin" size="5" type="offlajnskin">
+			<inherit>
+				<titlefont>{"Text":{"type":"0","size":"20||px","afont":"inherit||1"}}</titlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","afont":"inherit||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","afont":"inherit||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"inherit||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"inherit||1"}}</roundfont>
+			</inherit>
+			<arial>
+				<titlefont>{"Text":{"type":"0","size":"20||px","afont":"Arial||1"}}</titlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","afont":"Arial||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","afont":"Arial||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"Arial||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"Arial||1"}}</roundfont>
+			</arial>
+			<open_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Open Sans","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Open sans","subset":"latin","textdecor":"800"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open sans","subset":"latin","textdecor":"800"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open sans","subset":"latin","textdecor":"800"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open sans","subset":"latin"}}</roundfont>
+			</open_sans>
+			<roboto>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Roboto","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto","subset":"latin"}}</roundfont>
+			</roboto>
+			<lato>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Lato","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Lato","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lato","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lato","subset":"latin"}}</roundfont>
+			</lato>
+			<roboto_condensed>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto Condensed","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto Condensed","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto Condensed","subset":"latin"}}</roundfont>
+			</roboto_condensed>
+			<oswald>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Oswald","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Oswald","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Oswald","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Oswald","subset":"latin"}}</roundfont>
+			</oswald>
+			<lora>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Lora","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Lora","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lora","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lora","subset":"latin"}}</roundfont>
+			</lora>
+			<source_sans_pro>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Source Sans Pro","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Source Sans Pro","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Source Sans Pro","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Source Sans Pro","subset":"latin"}}</roundfont>
+			</source_sans_pro>
+			<pt_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"PT Sans","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"PT Sans","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"PT Sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"PT Sans","subset":"latin"}}</roundfont>
+			</pt_sans>
+			<open_sans_condensed>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Open Sans Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Open Sans Condensed","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open Sans Condensed","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open Sans Condensed","subset":"latin"}}</roundfont>
+			</open_sans_condensed>
+			<droid_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Droid Sans","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Droid Sans","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Droid Sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Droid Sans","subset":"latin"}}</roundfont>
+			</droid_sans>
+		</param>
+		<param default="#444444" description="The background color behind the site during 3D sidebar effect" if="sitebg" label="Color behind the site" name="sitebg" type="offlajnminicolor"/>
+		<param alpha="1" default="#f6f6f6" description="The background color behind the menu during 3D open effect" if="!overlay" label="Color behind the menu" name="menubg" type="offlajnminicolor"/>
+		<param name="hideburger" if="burger" check="conditions" type="offlajnonoff" default="0" label="Hide burger icon" description="Hides burger icon, except on small devices." />
+		<param name="sidebar_icon" if="burger" type="offlajncombine" label="Burger icon" default="#eeeeee|*|rgba(0, 0, 0, 0.5)|*|50||px|*|0||px|*|0||px|*|0||px|*|0.08em|*|1">
+			<param label="Color" type="offlajnminicolor"/>
+			<param alpha="1" label="Background color" size="15" type="offlajnminicolor"/>
+			<param label="Size" size="2" type="offlajntext"><unit>px</unit></param>
+			<param type="offlajnclear"/>
+			<param if="leftbutton" label="Distance from left" size="2" type="offlajntext"><unit>px</unit></param>
+			<param if="corner" label="Distance from top" size="2" type="offlajntext"><unit>px</unit></param>
+			<param if="rightbutton" label="Distance from right" size="2" type="offlajntext"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param type="offlajnlist" label="Line width">
+				<option value="0.08em">Normal</option>
+				<option value="0.1em">Bold</option>
+				<option value="3px">Thin</option>
+				<option value="2px">Ultra thin</option>
+			</param>
+			<param type="offlajnonoff" label="Rounded"/>
+		</param>
+		<param default="0|*|MENU|*|28||px|*|13||px|*|vertical" if="openbutton" label="Burger icon title" name="burgertitle" type="offlajncombine">
+			<param check="conditions" label="Enable" type="offlajnonoff"/>
+			<param if="burgertitle" label="Title" type="offlajntext"/>
+			<param if="!burgertitle_small" label="Font-size" size="2" type="offlajntext">
+				<unit>px</unit>
+			</param>
+			<param if="burgertitle_small" label="Font-size" size="2" type="offlajntext">
+				<unit>px</unit>
+			</param>
+			<param type="offlajnclear"/>
+			<param check="conditions" if="burgertitle" label="-" type="offlajnradioimg">
+				<option img="modules/mod_vertical_menu/params/images/vertical.png" value="vertical">Vertical</option>
+				<option img="modules/mod_vertical_menu/params/images/horizontal.png" value="horizontal">Horizontal</option>
+				<option img="modules/mod_vertical_menu/params/images/rotated.png" value="rotated">Rotated</option>
+				<option img="modules/mod_vertical_menu/params/images/small.png" value="small">Small</option>
+			</param>
+		</param>
+		<param default="0|*|0|*|10|*|0|*|px" if="modpos" label="Menu Margin" name="margin" type="offlajncombine">
+			<param label="Top" size="2" type="offlajntext"/>
+			<param label="Right" size="2" type="offlajntext"/>
+			<param label="Bottom" size="2" type="offlajntext"/>
+			<param label="Left" size="2" type="offlajntext"/>
+			<param label="-" type="offlajnswitcher">
+				<unit imsrc="" value="px">px</unit>
+				<unit imsrc="" value="em">em</unit>
+			</param>
+		</param>
+		<param default="0|*|0|*|0|*|0|*|px" if="modpos" label="Menu border-radius" name="borderradius" type="offlajncombine">
+			<param label="Top-left" size="2" type="offlajntext"/>
+			<param label="Top-right" size="2" type="offlajntext"/>
+			<param label="Bottom-right" size="2" type="offlajntext"/>
+			<param label="Bottom-left" size="2" type="offlajntext"/>
+			<param label="-" type="offlajnswitcher">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"20||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|1","lineheight":"50px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}' if="!overlay" label="TITLE_FONT" name="titlefont" tabs="Text" type="offlajnminifont"/>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"70||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto","subset":"latin","textdecor":"900"}}' if="overlay" label="TITLE_FONT" name="otitlefont" tabs="Text" type="offlajnminifont"/>
+		<param default="1-#14CAB3-#00A9AC" if="!overlay" label="Title background" name="titlegradient" onoff="0" type="offlajnminigradient"/>
+		<param default="#ffffff|*|#e8f1f0" if="filter" label="Filter" name="filtercolor" type="offlajncombine">
+			<param label="Background" type="offlajnminicolor"/>
+			<param alpha="1" label="Border-bottom" type="offlajnminicolor"/>
+		</param>
+		<param default="/modules/mod_vertical_menu/themes/flat/images/filter/filter-2.png" folder="/images/filter/" if="filter" label="Filter Icon" name="filtericon" type="offlajnimagemanager"/>
+		<param default="/modules/mod_vertical_menu/themes/flat/images/reset/reset-7.png" folder="/images/reset/" if="filter" label="Reset Icon" name="reseticon" type="offlajnimagemanager"/>
+		<param default="1" if="tree" label="Highlight opened items" name="opened" type="offlajnonoff"/>
+		<param check="conditions" default="0" label="Enable badges" name="badge" type="offlajnonoff"/>
+		<param default="#9cbf3d" if="badge" label="Square badge" name="squarebadge" type="offlajncombine">
+			<param alpha="1" label="Background" type="offlajnminicolor"/>
+		</param>
+		<param alpha="1" default='{"Text":{"type":"0","size":"10||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Verdana||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"Montserrat","subset":"latin"}}' if="badge" label="&lt;br&gt;" name="squarefont" tabs="Text" type="offlajnminifont"/>
+		<param default="#e15544" if="badge" label="Rounded badge" name="roundbadge" type="offlajncombine">
+			<param alpha="1" label="Background" type="offlajnminicolor"/>
+		</param>
+		<param alpha="1" default='{"Text":{"type":"0","size":"10||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"Verdana||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"Montserrat","subset":"latin"}}' if="badge" label="&lt;br&gt;" name="roundfont" tabs="Text" type="offlajnminifont"/>
+		<param default="4|*|4|*|4|*|4|*|px" if="badge" label="Badge border-radius" name="badgeradius" type="offlajncombine">
+			<param label="Top-left" size="2" type="offlajntext"/>
+			<param label="Top-right" size="2" type="offlajntext"/>
+			<param label="Bottom-right" size="2" type="offlajntext"/>
+			<param label="Bottom-left" size="2" type="offlajntext"/>
+			<param label="-" type="offlajnswitcher">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param label="LEVEL_SETTINGS" name="level" type="offlajnlevel"/>
+	</params>
+	<params group="level">
+		<param default="[x]" label="" name="level[x]" type="hidden"/>
+		<param alpha="1" default="1-#ffffff-#ffffff" label="Level background" name="level[x]gradient" onoff="0" type="offlajnminigradient"/>
+		<param default="rgba(218, 230, 233, 0.40)|*|rgba(0, 0, 0, 0)" label="Menu-item background" name="level[x]bg" type="offlajncombine">
+			<param alpha="1" label="Hover" type="offlajnminicolor"/>
+			<param alpha="1" label="Active" type="offlajnminicolor"/>
+		</param>
+		<param default="rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)" label="Menu-item border" name="level[x]border" type="offlajncombine">
+			<param alpha="1" label="Top" type="offlajnminicolor"/>
+			<param alpha="1" label="Bottom" type="offlajnminicolor"/>
+		</param>
+		<param default="7|*|15|*|7|*|15|*|px" label="Menu-item Padding" name="level[x]padding" type="offlajncombine">
+			<param label="Top" size="2" type="offlajntext"/>
+			<param label="Right" size="2" type="offlajntext"/>
+			<param label="Bottom" size="2" type="offlajntext"/>
+			<param label="Left" size="2" type="offlajntext"/>
+			<param label="-" type="offlajnswitcher">
+				<unit imsrc="" value="px">px</unit>
+				<unit imsrc="" value="em">em</unit>
+			</param>
+		</param>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"16||px","color":"#4c7675","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}' if="!overlay" label="Menu-item font" name="level[x]font" tabs="Text|Active|Hover" type="offlajnminifont"/>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"50||px","color":"#6a7373","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}' if="overlay" label="Menu-item font" name="level[x]ofont" tabs="Text|Active|Hover" type="offlajnminifont"/>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"13||px","color":"#90b2b2","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}' if="desc" label="Description font" name="level[x]descfont" tabs="Text|Active|Hover" type="offlajnminifont"/>
+		<param alpha="1" default='{"Text":{"type":"latin","size":"17||px","color":"rgba(106,115,115,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}' if="overlaydesc" label="Description font" name="level[x]odescfont" tabs="Text|Active|Hover" type="offlajnminifont"/>
+		<param alpha="1" default="1-#14CAB3-#00A9AC" if="displaynumprod" label="Count of sub-items background" name="level[x]countgrad" onoff="0" type="offlajnminigradient"/>
+		<param default="/modules/mod_vertical_menu/themes/flat/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676" label="Arrow" name="level[x]plus" type="offlajncombine">
+			<param folder="/images/arrows/" label="Icon" type="offlajnimagemanager"/>
+			<param type="offlajnclear"/>
+			<param label="Position" type="offlajnlist">
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+			</param>
+			<param alpha="1" label="Color" type="offlajnminicolor"/>
+			<param alpha="1" label="Hover" type="offlajnminicolor"/>
+		</param>
+	</params>
+</theme>

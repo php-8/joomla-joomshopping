@@ -1,0 +1,12 @@
+.inform_availability tr{
+    border:0px;
+}
+.inform_availability td{
+    padding:3px;
+    border:0px;
+}
+
+.inform_availability th{
+    padding:3px;
+    border:0px;
+}

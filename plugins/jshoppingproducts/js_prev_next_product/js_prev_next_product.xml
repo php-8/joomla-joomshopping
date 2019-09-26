@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="jshoppingproducts">
+	<name>JoomShopping - Prev / Next Product Pro</name>
+	<author>Garry</author>
+	<creationDate>07.03.2018</creationDate>
+	<copyright>Copyright. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>2.0</version>
+	<description>JoomShopping - Prev / Next Product Pro</description>
+	<scriptfile>script.php</scriptfile>	
+    <files folder="site">
+		<filename plugin="js_prev_next_product">js_prev_next_product.php</filename>
+		<folder>assets</folder>
+        <filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				<field name="count_prev" type="text"
+                       default="4"
+                       description="Количество предыдущих товаров"
+                       label="Предыдущие товары"
+                       size="10"
+                />
+				<field name="count_next" type="text"
+                       default="4"
+                       description="Количество следующих товаров"
+                       label="Следующие товары"
+                       size="10"
+                />
+				<field name="stock" type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					description=""
+					label="Только товары с остатками"
+				>
+					<option value="1">JYES</option>
+                    <option value="0">JNO</option>
+				</field>
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

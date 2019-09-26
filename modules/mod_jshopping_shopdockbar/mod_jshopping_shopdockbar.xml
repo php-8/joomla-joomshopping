@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="module" client="site" method="upgrade">
+	<name>JoomShopping - Shop Dock Bar</name>
+	<author>Garry</author>
+	<creationDate>March, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.70.4.0</version>
+	<description>MOD_JSHOPPING_SHOPDOCKBAR_DESC</description>
+	<files>
+		<filename module="mod_jshopping_shopdockbar">mod_jshopping_shopdockbar.php</filename>
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>element</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_jshopping_shopdockbar/element">
+			<fieldset name="contacts" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CONTACT">
+				<field
+					name="show_contacts"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CONTACT"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="office_adress"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_OFFICE_ADRESS"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_OFFICE_ADRESS_DESC" />
+				<field
+					name="warehouse_adress"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_WAREHOUSE_ADRESS"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_WAREHOUSE_ADRESS_DESC" />
+				<field
+					name="department_name_1"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME_DESC" />
+				<field
+					name="department_phone_1"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE_DESC" />
+				<field
+					name="department_name_2"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME_DESC" />
+				<field
+					name="department_phone_2"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE_DESC" />
+				<field
+					name="department_name_3"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_NAME_DESC" />
+				<field
+					name="department_phone_3"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_DEPARTMENT_PHONE_DESC" />
+				<field
+					name="open_hours"
+					type="textarea"
+					filter="safehtml"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_OPEN_HOURS"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_OPEN_HOURS_DESC" />
+			</fieldset>			
+			<fieldset name="callback" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CALLBACK">
+				<field
+					name="show_callback"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CALLBACK"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="callback_receipt_email"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_RECEIPT_EMAIL"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_RECEIPT_EMAIL_DESC" />
+				<field
+					name="callback_mail_subject"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_MAIL_SUBJECT"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_MAIL_SUBJECT_DESC" />
+			</fieldset>
+			<fieldset name="feedback" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_FEEDBACK">
+				<field
+					name="show_feedback"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_FEEDBACK"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="feedback_receipt_email"
+					type="text"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_RECEIPT_EMAIL"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_RECEIPT_EMAIL_DESC" />
+			</fieldset>
+			<fieldset name="history" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_HISTORY">
+				<field
+					name="show_history"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_HISTORY"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+			</fieldset>
+			<fieldset name="wishlist" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_WISHLIST">
+				<field
+					name="show_wishlist"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_WISHLIST"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="wishlist_effect"
+					type="list"
+					default="0"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE_DESC">
+					<option	value="0">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_NOTHING</option>
+					<option	value="1">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_BALOON</option>
+					<option	value="2">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_FLY</option>
+				</field>					
+			</fieldset>
+			<fieldset name="compare" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_COMPARE">
+				<field
+					name="show_compare"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_COMPARE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="compare_effect"
+					type="list"
+					default="0"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE_DESC">
+					<option	value="0">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_NOTHING</option>
+					<option	value="1">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_BALOON</option>
+					<option	value="2">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_FLY</option>
+				</field>					
+				<field 
+					name="max_quantity"
+					type="text" default="3"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_MAX_QUANTITY"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_MAX_QUANTITY_DESC"
+					filter="float" />
+				<field
+					name="show_image"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_IMAGE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_IMAGE">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_buy"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_BUY"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_BUY">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_reviews"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_REVIEWS"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_REVIEWS">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_desc"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_DESC"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_DESC">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_manuf"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_MANUF"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_MANUF">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_weight"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_WEIGHT"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_WEIGHT">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_available"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_AVAILABLE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_AVAILABLE">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_delivery"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_DELIVERY"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_DELIVERY">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field
+					name="show_extra_fields"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_EXTRA_FIELDS"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_EXTRA_FIELDS">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>	 
+				<field
+					name="show_attributes"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_ATTRIBUTES"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_COMPARE_SHOW_ATTRIBUTES">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>	 
+			</fieldset>
+			<fieldset name="cart" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CART">
+				<field
+					name="show_cart"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_CART"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+				<field type="spacer" />
+				<field
+					name="cart_effect"
+					type="list"
+					default="0"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_PRODUCT_ADD_STYLE_DESC">
+					<option	value="0">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_NOTHING</option>
+					<option	value="1">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_BALOON</option>
+					<option	value="2">MOD_JSHOPPING_SHOPDOCKBAR_CART_STYLE_FLY</option>
+				</field>					
+			</fieldset>
+			<fieldset name="login" label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_LOGIN">
+				<field
+					name="show_login"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_JSHOPPING_SHOPDOCKBAR_FIELDSETLABEL_LOGIN"
+					description="MOD_JSHOPPING_SHOPDOCKBAR_LABEL_SHOW_DESC">		
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>				
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="layoutdigit"
+					type="layoutdigit" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>     
+</extension>

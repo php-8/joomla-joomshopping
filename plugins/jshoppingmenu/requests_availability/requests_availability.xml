@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshoppingmenu">
+    <name>JoomShopping requests_availability</name>
+    <creationDate>06.03.2018</creationDate>
+	<version>1.4.1</version>
+	<author>Garry</author>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<copyright>GNU GPL</copyright>
+	<license>2018. All rights reserved.</license>
+    <description>JoomShopping requests availability product</description> 
+    <files>
+        <filename plugin="requests_availability">requests_availability.php</filename>
+    </files>
+</extension>

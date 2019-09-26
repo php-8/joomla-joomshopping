@@ -1,0 +1,123 @@
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.install-container{
+	max-width:600px;
+	border: 1px solid rgba(0,0,0,0.3);
+	font-family: 'Montserrat', sans-serif;
+	color:#333333;
+	background: #fff;
+	padding: 37px 35px;
+	margin-bottom: 15px;
+}
+
+.install-container .offlajn-header{
+	height: 51px;
+	position: relative;
+}
+
+.install-container .offlajn-logo{
+	background: url("components/com_offlajn_installer/images/offlajn-logo.png");
+	width: 124px;
+	height: 51px;
+	position: absolute;
+	z-index: 100;
+}
+
+.install-container .successful-install-message{
+	background: -moz-linear-gradient(left, #ffffff 0%, #a5c945 66%, #a5c945 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(66%,#a5c945), color-stop(100%,#a5c945));
+	background: -webkit-linear-gradient(left, #ffffff 0%,#a5c945 66%,#a5c945 100%);
+	background: -o-linear-gradient(left, #ffffff 0%,#a5c945 66%,#a5c945 100%);
+	background: -ms-linear-gradient(left, #ffffff 0%,#a5c945 66%,#a5c945 100%);
+	background: linear-gradient(to right, #ffffff 0%,#a5c945 66%,#a5c945 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a5c945',GradientType=1 );
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 27px;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	padding:0 15px 0;
+	position: absolute;
+	text-align:right;
+	top: 13px;
+	right: 0;
+	width: 410px;
+	height: 27px;
+}
+
+.install-container h2{
+	font-weight: 400;
+	margin: 25px 0 0;
+	color:#333333;
+	font-size: 24px;
+}
+
+.install-container p{
+	font-size: 14px;
+	line-height: 20px;
+	color:#5c5c5c;
+	margin: 20px 0;
+}
+
+.install-container .button{
+	background-color: #a5c945;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 60px;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.install-container .small-button{
+	background-color: #a5c945;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+	padding:5px 15px 5px 41px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.install-container .small-button.doc{
+	background-image: url("components/com_offlajn_installer/images/offlajn-doc.png");
+	background-repeat: no-repeat;
+	background-position: 12px center;
+}
+
+.install-container .small-button.sup{
+	background-image: url("components/com_offlajn_installer/images/offlajn-support.png");
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.install-container .button:hover,
+.install-container .small-button:hover{
+	background-color: #b7da59;
+}
+</style>
+<div class="install-container">
+	<div class="offlajn-header">
+		<div class="offlajn-logo"></div>
+		<div class="successful-install-message">Successful installation!</div>
+	</div>
+
+ <h2>Thank you for choosing Vertical Menu!</h2>
+ <p>
+	Now you have successfully installed Vertical Menu, so you are just a few steps away from creating a fascinating menu.
+ </p>
+ <a href="index.php?option=com_modules&filter_module=mod_vertical_menu&filter_search=&filter_state=&filter_position=&filter_access=&filter_language=" class="button">
+	Start creating something awesome!
+ </a>
+ <p>Do you want to know more about the product?</p>
+ <a class="small-button doc" href="http://docs.offlajn.com/vertical-menu/9-getting-started" target="_blank">
+	Read the documentation
+ </a>
+ <p>Do you have any more question with the module?</p>
+ <a href="http://offlajn.com/contact-us.html#department=5&product=39" target="_blank" class="small-button sup">
+	Create a support ticket
+ </a>
+</div>

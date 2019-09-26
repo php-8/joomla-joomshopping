@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="file" method="upgrade">
+	<name>addon_quickorder</name>
+	<author>Garry</author>
+	<creationDate>OCT, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>4.2</version>
+	<description><![CDATA[Bought on joom-shopping.com]]></description>
+	<scriptfile>addon_quickorder.php</scriptfile>
+	<fileset>
+		<files>
+			<folder>components</folder>
+			<folder>tmp</folder>
+		</files>
+	</fileset>
+</extension>       	         			        	          	

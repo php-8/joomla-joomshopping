@@ -1,0 +1,20 @@
+.offlajnimportexportbtn {
+	float: left;
+}
+.offlajnexportbtn,
+.offlajnimportbtn {
+	float: left;
+	background: url("../images/import_btn.png") no-repeat scroll 0 0;
+	height: 22px;
+	margin-top: 5px;
+	width: 84px;
+	cursor: pointer;
+}
+.offlajnexportbtn {
+	background: url("../images/export_btn.png") no-repeat scroll 0 0;
+	margin-left: 10px;
+}
+.offlajnexportbtn:hover,
+.offlajnimportbtn:hover {
+	background-position: 0 -24px;
+}

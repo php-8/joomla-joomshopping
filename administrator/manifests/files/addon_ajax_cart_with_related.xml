@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="file" method="upgrade">
+	<name>addon_ajax_cart_with_related</name>
+	<author>Garry</author>
+	<creationDate>March, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>Gnu Gpl</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.202.1.1</version>
+	<description><![CDATA[More extensions on the site <a href="https://joom-shopping.com" target="_blank">Joom-shopping.com</a>]]></description>
+
+	<scriptfile>addon_ajax_cart_with_related.php</scriptfile>
+	<fileset>
+		<files>
+			<folder>tmp</folder>
+		</files>
+	</fileset>
+</extension>       	    	  	     	      	          	

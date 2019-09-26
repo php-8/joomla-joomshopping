@@ -1,0 +1,21 @@
+<config>
+  <params>
+      <param name="mijoshopcategories" type="offlajnmijoshopcategories" default="0" label="CATEGORIES_AS_TOP_LEVEL_CATEGORIES" description="YOU_CAN_TEST_THE_WORKING_ON_OUR_DEMO_SITE_YOU_CAN_USE_CTRLCLICK_TO_SELECT_MULTIPLE" height="10" />
+      <param name="showproducts" type="offlajnonoff" default="0" label="SHOW_PRODUCTS_WITH_THE_CATEGORIES" description="" />
+			<param name="parenthref" type="offlajnonoff" default="0" label="Parent items as link" description="If enabled, the items which have subitems will be openable." />
+    <param name="displaynumprod" type="offlajnlist" default="0" label="DISPLAY_THE_NUMBER_OF_PRODUCTS" description="IF_YOU_CHECK_YES_IT_WILL_ADD_THE_COUNT_PRODUCTS_TO_THE_CATEGORY_EG_CATEGORY_NAME10">
+      <option value="0">No</option>
+      <option value="1">YES_ONLY_THE_REAL_COUNT</option>
+      <option value="2">YES_THE_AGGREGATED_COUNT_ON_EACH_CATEGORY</option>
+    </param>
+    <param name="subheader" type="offlajncombine" default="0|*|50|*|" label="Menu-item description">
+      <param type="offlajnonoff" check="conditions" onoff="1" label="SHOW_SUBHEADER" description="SHOW_SUBHEADER" />
+      <param type="offlajntext" label="LENGTH_SUBHEADER" validation="int" size="3" description="LENGTH_SUBHEADER" />
+    </param>
+    <param name="elementorder" type="offlajnlist" default="0" label="ELEMENT_ORDER" description="">
+      <option value="0">COMPONENT_DEFAULT</option>
+      <option value="1">ALPHABETICAL_ASCENDING</option>
+      <option value="2">ALPHABETICAL_DESCENDING</option>
+    </param>
+  </params>
+</config>

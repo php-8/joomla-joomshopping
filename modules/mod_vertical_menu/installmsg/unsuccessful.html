@@ -1,0 +1,110 @@
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.install-container{
+	max-width:600px;
+	border: 1px solid rgba(0,0,0,0.3);
+	font-family: 'Montserrat', sans-serif;
+	color:#333333;
+	background: #fff;
+	padding: 37px 35px;
+	margin-bottom: 15px;
+}
+
+.install-container .offlajn-header{
+	height: 51px;
+	position: relative;
+}
+
+.install-container .offlajn-logo{
+	background: url("components/com_offlajn_installer/images/offlajn-logo.png");
+	width: 124px;
+	height: 51px;
+	z-index: 100;
+	float: left;
+}
+
+.install-container .unsuccessful-install-message{
+	background: -moz-linear-gradient(left, #ffffff 0%, #ef8642 66%, #ef8642 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(66%,#ef8642), color-stop(100%,#ef8642));
+	background: -webkit-linear-gradient(left, #ffffff 0%,#ef8642 66%,#ef8642 100%);
+	background: -o-linear-gradient(left, #ffffff 0%,#ef8642 66%,#ef8642 100%);
+	background: -ms-linear-gradient(left, #ffffff 0%,#ef8642 66%,#ef8642 100%);
+	background: linear-gradient(to right, #ffffff 0%,#ef8642 66%,#ef8642 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ef8642',GradientType=1 );
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 27px;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	padding:0 15px 0;
+	text-align:right;
+	margin-top: 13px;
+	width: 410px;
+	height: 27px;
+	float: right;
+}
+
+.install-container h2{
+	font-weight: 400;
+	margin: 25px 0 0;
+	color:#333333;
+	font-size: 24px;
+}
+
+.install-container p{
+	font-size: 14px;
+	line-height: 20px;
+	color:#5c5c5c;
+	margin: 20px 0;
+}
+
+.install-container .button{
+	background-color: #a5c945;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 60px;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.install-container .small-button{
+	background-color: #a5c945;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+	padding:5px 15px 5px 41px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.install-container .small-button.doc{
+	background-image: url("components/com_offlajn_installer/images/offlajn-doc.png");
+	background-repeat: no-repeat;
+	background-position: 12px center;
+}
+
+.install-container .small-button.sup{
+	background-image: url("components/com_offlajn_installer/images/offlajn-support.png");
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.install-container .button:hover,
+.install-container .small-button:hover{
+	background-color: #b7da59;
+}
+</style>
+<div class="install-container">
+	<div class="offlajn-header">
+		<div class="offlajn-logo"></div>
+		<div class="unsuccessful-install-message">Unsuccessful installation!</div>
+	</div>
+ <p>Please write us, and we will help you!</p>
+ <a href="http://offlajn.com/contact-us.html#department=5&product=39" target="_blank" class="small-button sup">
+	Create a support ticket
+ </a>
+ <p>Errors:</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 510">
+	<path fill="currentColor" d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0zM255,459c-112.2,0-204-91.8-204-204S142.8,51,255,51s204,91.8,204,204S367.2,459,255,459z"/>
+	<path fill="currentColor" d="M153,280.5h204v-51H153V280.5z" style="transform-origin:center center; transform:rotate(90deg)"/>
+	<path d="M153,280.5h204v-51H153V280.5z" class="hidden"/>
+</svg>

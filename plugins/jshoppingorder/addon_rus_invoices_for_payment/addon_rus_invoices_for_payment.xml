@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshoppingorder">
+    <name>JoomShopping addon rus invoices for payment</name>
+    <creationDate>19.13.2013</creationDate>
+    <version>1.0.2</version>
+    <author></author>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <copyright></copyright>
+    <license></license>
+    <description>JoomShopping addon rus invoices for payment</description> 
+    <files>
+        <filename plugin="addon_rus_invoices_for_payment">addon_rus_invoices_for_payment.php</filename>
+    </files>
+</extension>

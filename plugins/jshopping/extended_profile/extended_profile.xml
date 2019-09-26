@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="jshopping" method="upgrade">
+	<name>JoomShopping - Extended Profile Quantum</name>
+	<author>None</author>
+	<creationDate>Jan, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>Gnu Gpl</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>4.0</version>
+	<description><![CDATA[More extensions on <a href="https://joom-shopping.com" target="_blank">joom-shopping.com</a>]]></description>
+	<files>
+		<folder>language</folder>
+		<filename plugin="extended_profile">extended_profile.php</filename>
+	</files>
+</extension>     	     	     		    	          	

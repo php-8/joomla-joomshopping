@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+	<name>CLEAR_J3</name>
+	<creationDate>Октябрь 2015</creationDate>
+	<author>А.П.В.</author>
+	<authorEmail>info@blog-about.ru</authorEmail>
+	<authorUrl>http://blog-about.ru/</authorUrl>
+	<copyright>Copyright(C) 2015 ClearT</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>0.0.1</version>
+	<description>TMPL_CLEAR_J3_DESC</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>top</position>
+		<position>debug</position>
+		<position>breadcrumbs</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>slider</position>
+		<position>footertext</position>
+	</positions>
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_clear_j3.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_clear_j3.sys.ini</language>
+	</languages> 
+</extension>

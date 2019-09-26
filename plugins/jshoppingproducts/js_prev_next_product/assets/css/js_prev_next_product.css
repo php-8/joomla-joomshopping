@@ -1,0 +1,20 @@
+.next_product,.next_product_first{display:block;float:right;margin-right: 2px;}
+.next_product img,.next_product_first img,.prev_product img{width:50px}
+.prev_product{display:block;float:left;}
+.prev_next{overflow: hidden;}
+.nspan {
+  display: inline-block !important;
+  float: right!important;
+  margin-top: 8px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 110px !important;
+}
+.pspan {
+  display: inline-block!important;
+  float: left!important;
+  margin-top: 8px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 110px !important;
+}

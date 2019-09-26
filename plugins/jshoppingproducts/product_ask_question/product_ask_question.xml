@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>    	    	        	    		          	
+<extension version="2.5.0" type="plugin" group="jshoppingproducts" method="upgrade">
+	<name>JoomShopping - Product Ask Question</name>
+	<author>Garry</author>
+	<creationDate>April, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.70.3.0</version>
+	<description><![CDATA[More extensions on <a href="https://joom-shopping.com" target="_blank">joom-shopping.com</a>]]></description>
+	<files>
+        <filename plugin="product_ask_question">product_ask_question.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="show_in_product"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show in product">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="show_in_category"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="Show in category">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

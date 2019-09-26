@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0.0" client="site" method="upgrade">
+<name>JoomShopping Ajax Filters</name> 
+	<creationDate>13.06.2017</creationDate>
+    <author>MatBlunic</author>
+    <authorEmail>matblunic@gmail.com</authorEmail>
+    <authorUrl>http://matblunic.com</authorUrl>
+    <copyright>Matblunic. All rights reserved.</copyright>
+    <version>1.0.1</version>
+	<description>JoomShopping Ajax Filters, shows filters of shop.</description>
+	<files>
+		<filename module="mod_jshopping_ajax_filters">mod_jshopping_ajax_filters.php</filename>
+        <filename>tmpl/default.php</filename>
+		<folder>css/</folder>
+		<folder>css/polaris</folder>
+		<folder>js/</folder>
+		<folder>fonts/</folder>
+		<folder>images/</folder>
+	</files>
+    <languages>
+        <language
+            tag="en-GB">en-GB.mod_jshopping_ajax_filters.ini</language>
+    </languages>     
+    <config>
+        <fields name="params">
+            <fieldset name="basic">  
+                <field
+                    name="show_manufacturers"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="1"
+                    label="SHOW MANUFACTURERS"
+                    description="SHOW MANUFACTURERS">
+                    <option
+                        value="0">MAT_HIDE</option>
+                    <option
+                        value="1">MAT_SHOW</option>
+                </field>
+                <field
+                    name="show_prices"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="1"
+                    label="SHOW PRICES"
+                    description="SHOW PRICES">
+                    <option
+                        value="0">MAT_HIDE</option>
+                    <option
+                        value="1">MAT_SHOW</option>
+                </field>
+				<field
+                    name="max_price"
+                    type="text"
+                    label="MAX_PRICE"
+                    description="MAX_PRICE_DESC">
+                </field> 	
+				<field
+                    name="load_jquery"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="1"
+                    label="LOAD_JQUERY"
+                    description="LOAD_JQUERY_DESC">
+                    <option
+                        value="0">MAT_NO</option>
+                    <option
+                        value="1">MAT_YES</option>
+                </field>		
+				<field
+                    name="load_javascript"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="1"
+                    label="LOAD_JAVASCRIPT"
+                    description="LOAD_JAVASCRIPT_DESC">
+                    <option
+                        value="0">MAT_NO</option>
+                    <option
+                        value="1">MAT_YES</option>
+                </field>						
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>       
+</extension>

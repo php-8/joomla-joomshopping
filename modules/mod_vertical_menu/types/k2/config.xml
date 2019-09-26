@@ -1,0 +1,46 @@
+<config>
+  <params>
+    <param name="k2categoryid" type="offlajnk2categories" default="0" label="Categories as top level categories" description="" height="10" />
+    <param name="showcontents" type="offlajnonoff" default="0" label="Show items with categories" description="" />
+		<param name="parenthref" type="offlajnonoff" default="0" label="Parent items as link" description="If enabled, the items which have subitems will be openable." />
+    <param name="displaynumprod" type="offlajnlist" default="0" label="Display the number of sub-items" description="IF_YOU_CHECK_YES_IT_WILL_ADD_THE_COUNT_PRODUCTS_TO_THE_CATEGORY_EG_CATEGORY_NAME10">
+      <option value="0">No</option>
+      <option value="1">YES_ONLY_THE_REAL_COUNT</option>
+      <option value="2">YES_THE_AGGREGATED_COUNT_ON_EACH_CATEGORY</option>
+    </param>
+    <param name="elementorder" type="offlajnlist" default="0" label="ELEMENT_ORDER" description="">
+      <option value="0">COMPONENT_DEFAULT</option>
+      <option value="1">ALPHABETICAL_ASCENDING</option>
+      <option value="2">ALPHABETICAL_DESCENDING</option>
+    </param>
+    <!--param name="maxitemsincat" type="offlajntext" default="20" label="Max. Items per Category" description="" attach_unit="0"/-->
+    <param name="menu_images" check="conditions" type="offlajnonoff" default="0" label="Show menu-item icons" description=""/>
+    <param type="offlajncombine" if="menu_images" name="resizeicon" default="0|*|32||px|*|32||px|*|32||px|*|0" label="Resize menu-item icons" description="">
+      <param type="offlajnonoff" default="0" onoff="1" label="Advanced" description=""/>
+      <param size="2" validation="int" type="offlajntext" label="Max width">
+        <unit>px</unit>
+      </param>
+      <param type="offlajnclear"/>
+      <param size="2" validation="int" type="offlajntext" label="Width">
+        <unit>px</unit>
+      </param>
+      <param size="2" validation="int" type="offlajntext" label="Height">
+        <unit>px</unit>
+      </param>
+      <param type="offlajnswitcher" label="-">
+        <unit value="1">Scale</unit>
+        <unit value="0">Crop</unit>
+      </param>
+    </param>
+    <param type="offlajncombine" if="menu_images" name="iconborderradius" default="0|*|0|*|0|*|0|*|px" label="Menu-item icon &lt;br&gt; border-radius" description="">
+      <param size="2" validation="int" type="offlajntext" label="Top-left"/>
+      <param size="2" validation="int" type="offlajntext" label="Top-right"/>
+      <param size="2" validation="int" type="offlajntext" label="Bottom-right"/>
+      <param size="2" validation="int" type="offlajntext" label="Bottom-left"/>
+      <param type="offlajnswitcher" label="-">
+        <unit value="%">%</unit>
+        <unit value="px">px</unit>
+      </param>
+    </param>
+  </params>
+</config>

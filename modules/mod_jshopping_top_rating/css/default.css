@@ -1,0 +1,8 @@
+.top_rating_products .block_item .old_price span{
+	text-decoration: line-through;
+	font-style: normal;
+	padding-bottom: 1px;
+}
+.top_rating_products .block_item .item_price{
+	color: #950000;
+}

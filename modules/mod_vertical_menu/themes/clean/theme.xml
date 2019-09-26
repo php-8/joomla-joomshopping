@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<params>
+		<param name="themeskin" type="offlajnskin" size="5" label="Color scheme" description="">
+			<blue_blur>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/blueblur.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/blue_blur.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<reseticon>/modules/mod_vertical_menu/themes/clean/images/reset/reset-0.png</reseticon>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1countbg>rgba(0, 0, 0, 0.22)</level1countbg>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</blue_blur>
+			<brown_blur>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/brownblur.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/brown_blur.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</brown_blur>
+			<eclipse>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/eclipse.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/eclipse.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</eclipse>
+			<gaussian_blur>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/gaussianblur.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/gaussian_blur.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</gaussian_blur>
+			<green_blur>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/greenblur.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/green_blur.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</green_blur>
+			<green_triangles>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/greentriangles.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/green_triangles.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</green_triangles>
+			<sky_blur>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/skyblur.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/sky_blur.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</sky_blur>
+			<sundown>
+				<preview>modules/mod_vertical_menu/params/images/clean_skins/sundown.png</preview>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<level1font>{"Text":{"color":"#ffffff"}}</level1font>
+				<level1descfont>{"Text":{"color":"#ffffff"}}</level1descfont>
+				<sitebg>#444444</sitebg>
+				<sidebar_icon>#eeeeee|*|rgba(0, 0, 0, 0.53)|*|50||px|*|0||px|*|0||px|*|0||px</sidebar_icon>
+				<bgimg>/modules/mod_vertical_menu/themes/clean/images/backgrounds/sundown.jpg</bgimg>
+				<bg>rgba(0, 0, 0, 0.11)|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0.13)</titlebg>
+				<titleborder>rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.2)</titleborder>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<menuitemmargin>7||px</menuitemmargin>
+				<level1padding>7|*|12|*|7|*|12|*|px</level1padding>
+				<borderradius>0|*|0|*|0|*|0|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)</filtercolor>
+				<level1>1</level1>
+				<level1bg>rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.07)</level1bg>
+				<level1border>rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)</level1border>
+				<level1plus>/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#ffffff|*|#ffffff</level1plus>
+			</sundown>
+		</param>
+		<param name="fontskin" type="offlajnskin" size="5" label="Font scheme" description="">
+			<inherit>
+				<titlefont>{"Text":{"type":"0","size":"20||px","bold":"0","afont":"inherit||1"}}</titlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","bold":"0","afont":"inherit||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","bold":"0","afont":"inherit||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"inherit||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"inherit||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"inherit||1"}}</roundfont>
+			</inherit>
+			<arial>
+				<titlefont>{"Text":{"type":"0","size":"20||px","bold":"0","afont":"Arial||1"}}</titlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","bold":"0","afont":"Arial||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","bold":"0","afont":"Arial||1","lineheight":"normal"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"Arial||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"Arial||1"}}</roundfont>
+			</arial>
+			<open_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Open Sans","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Open sans","subset":"latin","textdecor":"800"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open sans","subset":"latin","textdecor":"800"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open sans","subset":"latin","textdecor":"800"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open sans","subset":"latin"}}</roundfont>
+			</open_sans>
+			<roboto>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Roboto","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto","subset":"latin"}}</roundfont>
+			</roboto>
+			<lato>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Lato","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Lato","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","bold":"0","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lato","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lato","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lato","subset":"latin"}}</roundfont>
+			</lato>
+			<roboto_condensed>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto Condensed","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto Condensed","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Roboto Condensed","subset":"latin"}}</roundfont>
+			</roboto_condensed>
+			<oswald>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Oswald","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Oswald","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Oswald","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Oswald","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Oswald","subset":"latin"}}</roundfont>
+			</oswald>
+			<lora>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Lora","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Lora","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Lora","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lora","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Lora","subset":"latin"}}</roundfont>
+			</lora>
+			<source_sans_pro>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Source Sans Pro","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Source Sans Pro","subset":"latin","textdecor":"900"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Source Sans Pro","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Source Sans Pro","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Source Sans Pro","subset":"latin"}}</roundfont>
+			</source_sans_pro>
+			<pt_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"PT Sans","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"PT Sans","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"PT Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"PT Sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"PT Sans","subset":"latin"}}</roundfont>
+			</pt_sans>
+			<open_sans_condensed>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Open Sans Condensed","subset":"latin","textdecor":"300"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Open Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Open Sans Condensed","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Open Sans Condensed","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open Sans Condensed","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Open Sans Condensed","subset":"latin"}}</roundfont>
+			</open_sans_condensed>
+			<droid_sans>
+				<titlefont>{"Text":{"type":"latin","size":"20||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","family":"Droid Sans","subset":"latin","textdecor":"400"}}</titlefont>
+				<level1font>{"Text":{"type":"latin","size":"16||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1font>
+				<level1descfont>{"Text":{"type":"latin","size":"13||px","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}</level1descfont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Droid Sans","subset":"latin","textdecor":"700"}}</otitlefont>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1ofont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Droid Sans","subset":"latin","textdecor":"700"},"Active":{},"Hover":{}}</level1odescfont>
+				<squarefont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Droid Sans","subset":"latin"}}</squarefont>
+				<roundfont>{"Text":{"type":"latin","afont":"sans-serif||1","family":"Droid Sans","subset":"latin"}}</roundfont>
+			</droid_sans>
+		</param>
+
+		<param name="sitebg" if="sitebg" type="offlajnminicolor" default="#444444" label="Color behind the site" description="The background color behind the site during 3D sidebar effect" />
+		<param name="hideburger" if="burger" check="conditions" type="offlajnonoff" default="0" label="Hide burger icon" description="Hides burger icon, except on small devices." />
+		<param type="offlajncombine" if="burger" name="sidebar_icon" default="#eeeeee|*|rgba(0, 0, 0, 0.5)|*|50||px|*|0||px|*|0||px|*|0||px|*|0.08em|*|1" label="Burger icon" description="">
+			<param type="offlajnminicolor" label="Color" description="" />
+			<param type="offlajnminicolor" alpha="1" size="15" label="Background color" description="" />
+			<param size="2" type="offlajntext" label="Size"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param if="leftbutton" size="2" type="offlajntext" label="Distance from left"><unit>px</unit></param>
+			<param if="corner" size="2" type="offlajntext" label="Distance from top"><unit>px</unit></param>
+			<param if="rightbutton" size="2" type="offlajntext" label="Distance from right"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param type="offlajnlist" label="Line width">
+				<option value="0.08em">Normal</option>
+				<option value="0.1em">Bold</option>
+				<option value="3px">Thin</option>
+				<option value="2px">Ultra thin</option>
+			</param>
+			<param type="offlajnonoff" label="Rounded"/>
+		</param>
+		<param type="offlajncombine" if="openbutton" name="burgertitle" default="0|*|MENU|*|28||px|*|13||px|*|vertical" label="Burger icon title">
+			<param type="offlajnonoff" check="conditions" label="Enable"/>
+			<param type="offlajntext" if="burgertitle" label="Title"/>
+			<param type="offlajntext" if="!burgertitle_small" size="2" label="Font-size"><unit>px</unit></param>
+			<param type="offlajntext" if="burgertitle_small" size="2" label="Font-size"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param type="offlajnradioimg" if="burgertitle" check="conditions" label="-">
+				<option value="vertical" img="modules/mod_vertical_menu/params/images/vertical.png">Vertical</option>
+				<option value="horizontal" img="modules/mod_vertical_menu/params/images/horizontal.png">Horizontal</option>
+				<option value="rotated" img="modules/mod_vertical_menu/params/images/rotated.png">Rotated</option>
+				<option value="small" img="modules/mod_vertical_menu/params/images/small.png">Small</option>
+			</param>
+		</param>
+		<param name="bgimg" type="offlajnimagemanager" folder="/images/backgrounds/" default="/modules/mod_vertical_menu/themes/clean/images/backgrounds/green.jpg" label="Menu background-image" />
+		<param type="offlajncombine" name="bg" default="rgba(0, 0, 0, 0.11)|*|1|*|33||%" label="Menu background" description="OffsetX: Background image offset when the user navigates to a sublevel.">
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+			<param type="offlajnclear" />
+			<param type="offlajnonoff" onoff="1" label="Animation" />
+			<param type="offlajntext" size="2" label="OffsetX"><unit>%</unit></param>
+		</param>
+		<param type="offlajncombine" name="margin" if="modpos" default="0|*|0|*|10|*|0|*|px" label="Menu Margin" description="">
+			<param size="2" type="offlajntext" label="Top"/>
+			<param size="2" type="offlajntext" label="Right"/>
+			<param size="2" type="offlajntext" label="Bottom"/>
+			<param size="2" type="offlajntext" label="Left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param type="offlajncombine" name="borderradius" if="modpos" default="0|*|0|*|0|*|0|*|px" label="Menu border-radius" description="">
+			<param size="2" type="offlajntext" label="Top-left"/>
+			<param size="2" type="offlajntext" label="Top-right"/>
+			<param size="2" type="offlajntext" label="Bottom-right"/>
+			<param size="2" type="offlajntext" label="Bottom-left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param name="titlefont" if="!overlay" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"20||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"left","afont":"Helvetica, Arial||1","tshadow":"0||px|*|0||px|*|1||px|*|00000033|*|1","lineheight":"50px","family":"Roboto Condensed","subset":"latin","textdecor":"300"}}' label="TITLE_FONT" description="" />
+		<param name="otitlefont" if="overlay" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"70||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Helvetica, Arial||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Roboto","subset":"latin","textdecor":"900"}}' label="TITLE_FONT" description="" />
+		<param name="titlebg" type="offlajnminicolor" alpha="1" default="rgba(0, 0, 0, 0.13)" label="Title background"/>
+		<param name="titleborder" if="!overlay" type="offlajncombine" default="rgba(0, 0, 0, 0.2)|*|rgba(255, 255, 255, 0.13)" label="Title border">
+			<param type="offlajnminicolor" alpha="1" label="Top"/>
+			<param type="offlajnminicolor" alpha="1" label="Bottom"/>
+		</param>
+		<param name="filtercolor" if="filter" type="offlajncombine" default="rgba(0, 0, 0, 0.15)|*|rgba(255, 255, 255, 0.13)" label="Filter" description="">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+			<param type="offlajnminicolor" alpha="1" label="Border" />
+		</param>
+		<param name="reseticon" if="filter" type="offlajnimagemanager" folder="/images/reset/" default="/modules/mod_vertical_menu/themes/clean/images/reset/reset-0.png" label="Reset Icon" />
+		<param name="menuitemmargin" size="2" type="offlajntext" default="7||px" label="Menu-item margin"><unit>px</unit></param>
+		<param name="opened" if="tree" type="offlajnonoff" default="1" label="Highlight opened items" description=""/>
+		<param name="badge" check="conditions" type="offlajnonoff" default="0" label="Enable badges"/>
+		<param name="squarebadge" if="badge" type="offlajncombine" default="#EF3D43" label="Square badge">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+		</param>
+		<param name="squarefont" if="badge" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"10||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"Montserrat","subset":"latin"}}' label="&lt;br&gt;" />
+		<param name="roundbadge" if="badge" type="offlajncombine" default="#EF3D43" label="Rounded badge">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+		</param>
+		<param name="roundfont" if="badge" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"10||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"Montserrat","subset":"latin"}}' label="&lt;br&gt;" />
+		<param name="badgeradius" if="badge" type="offlajncombine" default="4|*|4|*|4|*|4|*|px" label="Badge border-radius">
+			<param size="2" type="offlajntext" label="Top-left"/>
+			<param size="2" type="offlajntext" label="Top-right"/>
+			<param size="2" type="offlajntext" label="Bottom-right"/>
+			<param size="2" type="offlajntext" label="Bottom-left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param name="level" type="offlajnlevel" label="LEVEL_SETTINGS" description="" />
+	</params>
+
+	<params group="level">
+		<param name="level[x]" type="hidden" default="[x]" label="" description=""/>
+		<param type="offlajncombine" name="level[x]bg" default="rgba(218, 230, 233, 0.2)|*|rgba(0, 0, 0, 0.13)" label="Menu-item background" description="">
+			<param type="offlajnminicolor" alpha="1" label="Hover" />
+			<param type="offlajnminicolor" alpha="1" label="Active" />
+		</param>
+		<param name="level[x]border" type="offlajncombine" default="rgba(255, 255, 255, 0)|*|rgba(0, 0, 0, 0)" label="Menu-item border" description="">
+			<param type="offlajnminicolor" alpha="1" label="Top"/>
+			<param type="offlajnminicolor" alpha="1" label="Bottom"/>
+		</param>
+		<param type="offlajncombine" name="level[x]padding" default="7|*|12|*|7|*|12|*|px" label="Menu-item Padding" description="">
+			<param size="2" type="offlajntext" label="Top"/>
+			<param size="2" type="offlajntext" label="Right"/>
+			<param size="2" type="offlajntext" label="Bottom"/>
+			<param size="2" type="offlajntext" label="Left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param name="level[x]font" if="!overlay" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"16||px","color":"#ffffff","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Roboto Condensed","subset":"latin","textdecor":"300"},"Active":{},"Hover":{}}' label="Menu-item font" />
+		<param name="level[x]ofont" if="overlay" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"50||px","color":"#ffffff","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}' label="Menu-item font" />
+		<param name="level[x]descfont" if="desc" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"13||px","color":"#90b2b2","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"400"},"Active":{},"Hover":{}}' label="Description font" />
+		<param name="level[x]odescfont" if="overlaydesc" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"17||px","color":"rgba(255,255,255,0.8)","italic":"0","underline":"0","align":"center","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Roboto","subset":"latin","textdecor":"900"},"Active":{},"Hover":{}}' label="Description font" />
+		<param name="level[x]countbg" if="displaynumprod" type="offlajnminicolor" alpha="1" default="rgba(0, 0, 0, 0.22)" label="Count of sub-items background"/>
+		<param type="offlajncombine" name="level[x]plus" default="/modules/mod_vertical_menu/themes/clean/images/arrows/default_right.png|*|right|*|#4e7676|*|#4e7676" label="Arrow">
+			<param type="offlajnimagemanager" folder="/images/arrows/" label="Icon" />
+			<param type="offlajnclear"/>
+			<param type="offlajnlist" label="Position">
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+			</param>
+			<param type="offlajnminicolor" alpha="1" label="Color"/>
+			<param type="offlajnminicolor" alpha="1" label="Hover"/>
+		</param>
+	</params>
+</theme>

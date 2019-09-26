@@ -1,0 +1,191 @@
+
+@import "uikit.css";
+#oneStepCheckoutForm .uk-panel-box {
+	background: #fafafa;
+	color: #444;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+#oneStepCheckoutForm .uk-form select,
+#oneStepCheckoutForm .uk-form textarea,
+#oneStepCheckoutForm .uk-form input[type="text"],
+#oneStepCheckoutForm .uk-form input[type="password"],
+#oneStepCheckoutForm .uk-form input[type="datetime"],
+#oneStepCheckoutForm .uk-form input[type="datetime-local"],
+#oneStepCheckoutForm .uk-form input[type="date"],
+#oneStepCheckoutForm .uk-form input[type="month"],
+#oneStepCheckoutForm .uk-form input[type="time"],
+#oneStepCheckoutForm .uk-form input[type="week"],
+#oneStepCheckoutForm .uk-form input[type="number"],
+#oneStepCheckoutForm .uk-form input[type="email"],
+#oneStepCheckoutForm .uk-form input[type="url"],
+#oneStepCheckoutForm .uk-form input[type="search"],
+#oneStepCheckoutForm .uk-form input[type="tel"],
+#oneStepCheckoutForm .uk-form input[type="color"] {
+	height: 30px;
+	padding: 4px 6px;
+	border: 1px solid #dddddd;
+	background: #ffffff;
+	color: #444444;
+	-webkit-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+	border-radius: 4px;
+}
+#oneStepCheckoutForm input[type="radio"], 
+#oneStepCheckoutForm input[type="checkbox"] {
+	display:inline-block;
+}
+#oneStepCheckoutForm .uk-form label,
+#oneStepCheckoutForm .uk-form input,
+#oneStepCheckoutForm .uk-form select,
+#oneStepCheckoutForm .uk-form textarea {
+	font-family: Cuprum!important;
+}
+#oneStepCheckoutForm .jshop_register input {
+	width: 85%;
+}
+#oneStepCheckoutForm .uk-form  .uk-form-icon input {
+	padding-left: 0!important;
+}
+#oneStepCheckoutForm .uk-navbar {
+	background: #f7f7f7;
+	color: #444444;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom-color: rgba(0, 0, 0, 0.3);
+	background-origin: border-box;
+	background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+	background-image: linear-gradient(to bottom, #ffffff, #eeeeee);
+}
+#onestepcheckout-overlay{
+    position : fixed;
+    left : 0;
+    top : 0;
+    z-index : 65533;
+    background : url('../images/overlay.gif') no-repeat center center #FFF;
+    opacity : 0.5;
+    filter:alpha(opacity=50);
+}
+#oneStepCheckoutForm .jshop_register .uk-grid {
+	margin-top:5px;
+}
+
+#oneStepCheckoutForm .jshop_block_privacy_statement {
+	border: 1px solid #ccc;
+	padding:5px 15px; 
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	margin: 7px 0;
+}
+.onestepcheckout_message,
+.onestepcheckout_warning,
+.onestepcheckout_error  {
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 4px;
+	text-shadow: 0 1px 0 #fff;
+	background: #ebf7fd;
+	color: #2d7091;
+	border: 1px solid rgba(45,112,145,0.3);
+}
+.onestepcheckout_warning {
+	background: #fffceb;
+	color: #e28327;
+	border-color: rgba(226,131,39,0.3);
+}
+.onestepcheckout_error {
+	background: #fff1f0;
+	color: #d85030;
+	border-color: rgba(216,80,48,0.3);
+}
+#oneStepCheckoutForm .step-header {
+	text-transform: uppercase;
+	color: rgb(9, 9, 177);
+}
+#oneStepCheckoutForm .uk-grid:not(.uk-grid-preserve) > [class*='uk-width-'] > .uk-panel.uk-hidden + .uk-panel {
+	margin-top: 0px;
+}
+#oneStepCheckoutForm .preview_discount {
+	color: green;
+}
+#oneStepCheckoutForm .uk-icon-trash {
+	color: #888;
+}
+#oneStepCheckoutForm .add_info {
+	margin-top: 10px;
+}
+#oneStepCheckoutForm .rabatt_input {
+	padding: 7px 10px;
+}
+#oneStepCheckoutForm input[id^=quantity],
+#oneStepCheckoutForm input[id^=topquantity] {
+	width: 55px;
+	height: 30px;
+}
+#oneStepCheckoutForm .fielderror {
+	background: #fff1f0;
+	border-color: #d85030;
+}
+#oneStepCheckoutForm  .button_order_finish {
+	text-transform: uppercase;
+}
+.registr-success {
+	background: #f2fae3;
+	color: #659f13;
+	border-color: #659f13;
+	padding:10px 20px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+#oneStepCheckoutForm  .row_agb {
+	border: 1px dotted #aaa;
+	padding: 5px;
+	margin-top: 10px;
+}
+#oneStepCheckoutForm div.quantity {
+	position: relative;
+	cursor: pointer;
+	width: 68px;
+}
+#oneStepCheckoutForm div.quantity span.quantitymore,
+#oneStepCheckoutForm div.quantity span.quantityless {
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 50%;
+	border-left: 1px solid #ddd;
+}
+#oneStepCheckoutForm div.quantity span.quantitymore {
+	top: 0;
+	border-bottom: 1px solid #ddd;
+}
+#oneStepCheckoutForm div.quantity span.quantityless {
+	top: 50%;
+}
+#oneStepCheckoutForm div.quantity span.quantitymore:after,
+#oneStepCheckoutForm div.quantity span.quantityless:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -4px;
+	margin-top: -3px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 6px solid #717171;
+}
+#oneStepCheckoutForm div.quantity span.quantityless:after {
+	border-top: 6px solid #717171;
+	border-bottom: 0px;
+}
+#oneStepCheckoutForm div.quantity input{margin:0;}
+
+#oneStepCheckoutForm  .jshop_nvg_register input {width:80%;}
+#oneStepCheckoutForm  .jshop_nvg_register select {width:90%;}
+
+#oneStepCheckoutForm  .requiredtext {cursor:help;}        	 	        	 	      	          	

@@ -1,0 +1,186 @@
+﻿    /*
+    * @version      1.1.9 26.01.2019
+    * @author       Garry
+    * @package      update.php
+    * @copyright    Copyright (C) 2019 joom-shopping.com. All rights reserved.
+    * @license      GNU/GPL
+    */
+
+.addon_search_plus_plus ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.addon_search_plus_plus label {
+    display: inline-block;
+}
+
+.addon_search_plus_plus label span {
+    vertical-align: sub;
+}
+
+.addon_search_plus_plus .reset_search {
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+}
+
+.addon_search_plus_plus .reset_search.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.addon_search_plus_plus .reset_search:before {
+    content: '×';
+    display: inline-block;
+}
+
+.addon_search_plus_plus .search-result {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.addon_search_plus_plus .search-result input {
+    margin-bottom: 0;
+}
+.addon_search_plus_plus .search-result input.load{
+	background: #fff url("../images/loading.gif") no-repeat scroll 98% 50%;
+}
+
+.addon_search_plus_plus .popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 600px;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.addon_search_plus_plus .popup:empty {
+    display: none !important;
+}
+
+.addon_search_plus_plus .results {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addon_search_plus_plus .results > * {
+    width: 22%;
+}
+
+.addon_search_plus_plus .results > :last-child {
+    width: 75%;
+}
+
+.addon_search_plus_plus .results > *:only-child {
+    width: 100%;
+}
+
+.addon_search_plus_plus .results > * > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.addon_search_plus_plus .results .left li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.addon_search_plus_plus .results .title {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.addon_search_plus_plus .results .products {
+    width: 100%;
+}
+
+.addon_search_plus_plus .results .products td {
+    padding: 5px;
+}
+
+.addon_search_plus_plus .results .products td:first-child {
+    padding-left: 0;
+}
+
+.addon_search_plus_plus .results .products td:last-child {
+    padding-right: 0;
+}
+
+.addon_search_plus_plus .results .products .image {
+    min-width: 100px;
+    text-align: center;
+}
+
+.addon_search_plus_plus .results .products .image img {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.addon_search_plus_plus .results .products .add_to_cart_wishlist,
+.addon_search_plus_plus .results .products .price {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.addon_search_plus_plus .results .products .add_to_cart_wishlist > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.addon_search_plus_plus .results .products .add_to_cart_wishlist a.btn span {
+    vertical-align: middle;
+    width: auto;
+}
+
+.addon_search_plus_plus .results .products .add_to_cart_wishlist .inputbox {
+    width: 2em;
+    text-align: center;
+}
+
+.addon_search_plus_plus .results .products .more_results {
+    margin-top: 15px;
+}
+
+.search-result__input-container {
+    position: relative;
+    display: inline-block;
+}
+
+@media(max-width: 768px) {
+    .addon_search_plus_plus .results > *:nth-child(n) {
+        width: 100%;
+    }
+    .addon_search_plus_plus .results > *:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 640px) {
+    .addon_search_plus_plus .results .products tr {
+        display: block;
+    }
+    .addon_search_plus_plus .results .products tr:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .addon_search_plus_plus .results .products td {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .addon_search_plus_plus .results .products td:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}

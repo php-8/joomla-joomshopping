@@ -1,0 +1,181 @@
+
+/*---------------------------------------------------------------- 
+  Copyright:
+  (C) 2008 - 2010 IceTheme
+  
+  License:
+  GNU/GPL http://www.gnu.org/copyleft/gpl.html
+  
+  Author:
+  IceTheme - http://wwww.icetheme.com
+---------------------------------------------------------------- */
+
+
+.lofmenu_jshopping {
+	border:1px solid #ccc; 
+	padding-left: 2%;	
+	padding-right: 2%;
+
+
+	/* margin-top: 30px;
+	padding: 12px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    text-align: ;
+    background-color: #efefef;
+    border-bottom: 1px solid #dadada;
+    margin: 0; */
+}
+	
+	.lofmenu_jshopping ul.lofmenu {
+		margin:0;
+		padding: 0;		
+		position: relative;
+		list-style-type:none;
+		/*z-index: 999; */
+	}
+		
+		.lofmenu_jshopping ul.lofmenu li{
+			width:100%;
+			display:block;
+			margin: 0;
+			padding: 0;
+			position:relative;
+			
+			position: relative;
+			z-index: 10;
+			}
+
+		/*.lofmenu_jshopping .lofmenu .lofitem1,
+		.lofmenu_jshopping .lofmenu .lofitem2 {}*/
+
+			.lofmenu_jshopping .lofmenu a {
+				display:block;
+				color:#000000;
+				position:relative;
+				padding:10px 0;
+				text-decoration:none;
+				border-bottom:1px solid #ccc; 
+				-webkit-transition:background-color color .3s ease-out;
+				-moz-transition:background-color .3s ease-out, color .3s ease-out;
+				-o-transition:background-color .5s ease-out; 
+				transition:background-color .5s ease-out;}
+				
+				
+				/* on hover */
+				.lofmenu_jshopping .lofmenu .lofactive > a{
+					background-color: #eee;
+					color: #222 }
+				
+				/* when is current */		
+				.lofmenu_jshopping .lofmenu .ice-current > a{
+					background-color:#eee;
+					color: #222
+				}				
+						
+					.lofmenu_jshopping .lofmenu > .ice-current > a:before {
+						content:"";
+						background:url(images/current.png) no-repeat center right;
+						position:absolute;
+						height:20px;
+						width:14px;
+						right:-24px}	
+						
+				
+				
+				
+				.lofmenu_jshopping .lofmenu .lofitem1 img{
+					margin:0 9px 0 5px;
+					float:left;}
+				
+				
+				.lofmenu_jshopping .lofmenu .lofitem1 a span.counter {
+					color:#999;
+					padding-left:3px}
+					
+					
+				/* when has childs items */	
+				.lofmenu_jshopping .lofmenu .lofitem1 a i{
+					background: url(images/next.png) no-repeat top;
+					display: block;
+					height: 14px;
+					position: absolute;
+					right: 5px;
+					top: 12px;
+					width: 14px;}
+					.lofmenu_jshopping .lofmenu .lofactive > a i{
+						background-position:bottom}
+					
+					
+					
+		/* second level menu */			
+		.lofmenu_jshopping .lofmenu .lofitem1 ul{
+			width:100%;
+			position:absolute;
+			top: -1px;
+			left:99.9%;
+			border:1px solid #ccc;
+			box-shadow:0 0 10px #999;
+			padding:0;
+			margin:0;
+			padding-left: 2%;	
+			padding-right: 2%;
+			background:#fff;
+			/*z-index: 100;*/
+		}
+
+
+
+
+
+/* accordion menu */	
+
+	.acc_menu_jshopping ul.acc_menu {
+		margin:0;
+		padding:0;		
+		list-style-type:none;
+}
+		
+		.acc_menu_jshopping ul.acc_menu li{
+			width:100%;
+			display:block;
+			margin: 0;
+			padding: 0;
+}
+
+			.acc_menu_jshopping .acc_menu a {
+				display:block;
+				color:#666;
+				padding:6px 0;
+				text-decoration:none;
+			}				
+				
+				
+				/* when is current */		
+				.acc_menu_jshopping .acc_menu .current > a{
+					color: #222;
+					font-weight:bold; }				
+						
+				
+				.acc_menu_jshopping .acc_menu .item1 a span.counter {
+					color:#999;
+					padding-left:3px}
+					
+					
+				/* when has childs items */	
+				.acc_menu a:hover, .acc_menu_jshopping .acc_menu .current > a:hover{
+					color:#ff0000;
+					display: block;
+				}
+					
+		/* second level menu */			
+		.acc_menu_jshopping .acc_menu .item1 ul{
+			padding:0 0 0 20px;
+			margin:0;
+}
+
+		 .parent_image { width:10px; height:100%;display:inline-block;}
+		 .closed >.parent_image { background:url(images/parent.png) 0px 50% no-repeat;}
+		 .open >.parent_image { background:url(images/parent_open.png) 0px 50% no-repeat;}
+
+		ul.menu	li.hidden {display:none;}		

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" method="upgrade" group="system">
+    <name>JoomShopping - Search++</name>
+    <creationDate>15.01.2019</creationDate>
+    <author>MAXXmarketing GmbH</author>
+    <authorEmail>info@joom-shopping.com</authorEmail>
+    <authorUrl>https://joom-shopping.com</authorUrl>
+    <copyright>Copyright (C) 2019 joom-shopping.com. All rights reserved.</copyright>
+    <license>Open Source License, GNU/GPL</license>
+    <version>1.1.9</version>
+    <description>JoomShopping - Search++ plugin</description>
+    <files>
+        <filename plugin="addon_search_plus_plus">addon_search_plus_plus.php</filename>
+    </files>
+</extension>

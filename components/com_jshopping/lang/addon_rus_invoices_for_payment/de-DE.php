@@ -1,0 +1,40 @@
+<?php
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_FELLOW_THE_FORM', 'Oбразец заполнения платежного платежа');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_INN', 'ИНН');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_KPP', 'КПП');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_RECIPIENT', 'Получатель');//recipient
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MF_NUM', 'Сч №');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_PAYEES_BANK', 'Банк получателя');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_BIK', 'БИК');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_PAYER', 'Платильщик:');//payer
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_CUSTOMER', 'Грузополучатель:');//Customer
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_ACCOUNT_NUMBER', 'СЧЕТ №');//account number
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_OT', ' от ');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_PR_YEAR', ' г.');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_NUMBBER', '№');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_NAME_OF_THE_PRODUCT', 'Наименования товара');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_UNIT', 'Единица');//unit
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_COUNT', 'Коли- чество');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_PRICE', 'Цена');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_SUMM', 'Сумма');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_CHT', 'Шт.');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_TOTAL_ITEMS', 'Всего наименований ');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_THE_AMOUNT', 'на сумму ');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_GUIDE_ENTERPRISES', 'Руководство предприятия');//guide enterprises
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_CHIEF_ACCOUNTANT', 'Главный бухгалтер');//chief accountant
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_JANUARY', 'Января');//January"
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_FEBRUARY', 'Февраля');//February
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_MARCH', 'Марта');//March
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_APRIL', 'Апреля');//April
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_MAY', 'Мая');//May
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_JUNE', 'Июня');//June
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_JULY', 'Июля');//July
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_AUGUST', 'Августа');//August
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_SEPTEMBER', 'Сентября');//September
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_OCTOBER', 'Октября');//October
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_NOVEMBER', 'Ноября');//November
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_MONTH_DECEMBER', 'Декабря');//December
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_PRE_CITY', 'г. ');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT_ACCOUNT_CORRESPONDENT', 'Cчёт корреспондетский');
+define('_JSHOP_ADDON_RUS_INVOICES_PAYMENT', '');
+?>

@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" method="upgrade" client="site">
+  <name>Vertical Menu</name>
+  <author>Balint Polgarfi</author>
+  <copyright>2014-2019 Offlajn.com</copyright>
+  <authorEmail>balint.polgarfi@offlajn.com</authorEmail>
+  <authorUrl>https://offlajn.com</authorUrl>
+  <version>4.0.270</version>
+  <updateservers>
+    <server type="extension" priority="1" name="VerticalMenu Updates">http://offlajn.com/updates/VerticalMenu.xml</server>
+  </updateservers>
+  <description>All-in-one responsive menu solution for Joomla!</description>
+  <conditions>
+    <condition name="drop"><![CDATA[ $navtype == 'drop' ]]></condition>
+    <condition name="!drop"><![CDATA[ $navtype != 'drop' ]]></condition>
+    <condition name="tree"><![CDATA[ $navtype == 'tree' ]]></condition>
+    <condition name="treeskin"><![CDATA[ $navtype.match(/tree|expand|accordion/) ]]></condition>
+    <condition name="themeskin"><![CDATA[ $navtype.match(/drop|slide/) ]]></condition>
+    <condition name="back"><![CDATA[ ($navtype.match(/drop|slide/) || $filter0 == 1) && $position0 != 'overlay' ]]></condition>
+    <condition name="modpos"><![CDATA[ $position0 == 'module' ]]></condition>
+    <condition name="!modpos"><![CDATA[ $position0 != 'module' ]]></condition>
+    <condition name="overlay"><![CDATA[ $position0 == 'overlay' ]]></condition>
+    <condition name="!overlay"><![CDATA[ $position0 != 'overlay' ]]></condition>
+    <condition name="popup"><![CDATA[ $position0 == 'popup' ]]></condition>
+    <condition name="filter"><![CDATA[ $filter0 == 1 && $position0 != 'overlay' ]]></condition>
+    <condition name="autoopen"><![CDATA[ $autoopen0 > 0 ]]></condition>
+    <condition name="burger"><![CDATA[ $position0 != 'module' || parseInt($position1) ]]></condition>
+    <condition name="burgertitle"><![CDATA[ $burgertitle0 == 1 ]]></condition>
+    <condition name="burgertitle_small"><![CDATA[ $burgertitle0 == 1 && $burgertitle4 == 'small' ]]></condition>
+    <condition name="!burgertitle_small"><![CDATA[ $burgertitle0 == 1 && $burgertitle4 != 'small' ]]></condition>
+    <condition name="corner"><![CDATA[ $openbutton == 'corner' ]]></condition>
+    <condition name="leftbutton"><![CDATA[ $openbutton == 'corner' && $position0.match(/leftbar|popup|module/) ]]></condition>
+    <condition name="rightbutton"><![CDATA[ $openbutton == 'corner' && $position0.match(/rightbar|overlay/) ]]></condition>
+    <condition name="sitebg"><![CDATA[ ($position0 != 'module' || parseInt($position1)) && $position0 != 'popup' ]]></condition>
+    <condition name="sidebar"><![CDATA[ ($position0 != 'module' || parseInt($position1)) && !$position0.match(/popup|overlay/) ]]></condition>
+    <condition name="maxheight"><![CDATA[ $position0 == 'module' || $position0 == 'popup' ]]></condition>
+    <condition name="borderradius"><![CDATA[ $position0 == 'module' || $position0 == 'popup' || $navtype == 'drop' ]]></condition>
+    <condition name="boxshadow"><![CDATA[ $position0 == 'popup' || $navtype == 'drop' ]]></condition>
+    <condition name="desc"><![CDATA[ $subheader0 == 1 && $position0 != 'overlay' ]]></condition>
+    <condition name="overlaydesc"><![CDATA[ $subheader0 == 1 && $position0 == 'overlay' ]]></condition>
+    <condition name="displaynumprod"><![CDATA[ $displaynumprod > 0 ]]></condition>
+    <condition name="menu_images"><![CDATA[ $menu_images == 1 ]]></condition>
+    <condition name="advancedanim"><![CDATA[ $advancedanim == 1 ]]></condition>
+    <condition name="advancedslide"><![CDATA[ $advancedanim == 1 && $navtype != 'drop' ]]></condition>
+    <condition name="advanceddrop"><![CDATA[ $advancedanim == 1 && $navtype == 'drop' ]]></condition>
+    <condition name="animatemenuitem"><![CDATA[ $advancedanim == 1 && $animatemenuitem0 == 1 ]]></condition>
+    <condition name="!jquery"><![CDATA[ !window.jQuery ]]></condition>
+    <condition name="improvedstartlevel"><![CDATA[ $improvedstartlevel == 1 ]]></condition>
+    <condition name="!advancedvisibility"><![CDATA[ $visibility4 != 1 ]]></condition>
+    <condition name="badge"><![CDATA[ $badge == 1 ]]></condition>
+    <condition name="virtuemart"><![CDATA[ $menutype == 'virtuemart2' ]]></condition>
+  </conditions>
+  <params addPath="/modules/mod_vertical_menu/params/offlajndashboard">
+    <param name="update" type="offlajndashboard" label="Vertical Menu" blogtags="Vertical Menu" jed="http://extensions.joomla.org/extensions/extension/structure-a-navigation/menu-systems/vertical-drop-menu"/>
+  </params>
+  <!-- Joomla 1.6 >= params -->
+  <config>
+    <fields name="params" addfieldpath="/modules/mod_vertical_menu/params/offlajndashboard">
+      <fieldset name="basic">
+        <field name="update" type="offlajndashboard" label="Vertical Menu" blogtags="Vertical Menu" jed="http://extensions.joomla.org/extensions/extension/structure-a-navigation/menu-systems/vertical-drop-menu"/>
+        <field name="moduleparametersTab" type="offlajntab" label="Basic parameters" position="first">
+          <param type="offlajnimportexport" download="VerticalMenu_export_" exclude="menutype joomlamenu joomlamenutype \\w+categoryid showproducts showcontents showitems zooapps zoocategories" label="Import / Export &lt;br&gt; menu settings" description="Import / Export all menu settings expect the menu structure"/>
+          <param name="menutype" check="conditions" type="offlajnmenutype" default="" label="Type" description="Type of the menu"/>
+          <param name="active" type="offlajnlist" default="1" label="ACTIVE_ITEMS" description="">
+            <option value="0">NO_ACTIVE_ELEMENTS</option>
+            <option value="1">SELECTED_ITEM_ACTIVE</option>
+            <option value="2">SELECTED_BRANCH_ACTIVE</option>
+          </param>
+          <param type="offlajncombine" name="visibility" label="Visibility" description="With this option you can show or hide the menu on specific devices." default="1|*|1|*|1|*|1|*|0|*|0||px|*|10000||px">
+            <param type="offlajntoggle" if="!advancedvisibility" img="modules/mod_vertical_menu/params/images/mobile.png"/>
+            <param type="offlajntoggle" if="!advancedvisibility" img="modules/mod_vertical_menu/params/images/tablet.png"/>
+            <param type="offlajntoggle" if="!advancedvisibility" img="modules/mod_vertical_menu/params/images/desktop.png"/>
+            <param type="offlajntoggle" if="!advancedvisibility" img="modules/mod_vertical_menu/params/images/wide-screen.png"/>
+            <param type="offlajnclear"/>
+            <param type="offlajnonoff" check="conditions" label="Advanced" onoff="1"/>
+            <param type="offlajntext" label="Hide under" size="4">
+              <unit>px</unit>
+            </param>
+            <param type="offlajntext" label="Hide above" size="4">
+              <unit>px</unit>
+            </param>
+          </param>
+          <param type="offlajnradioimg" check="conditions" name="navtype" label="Navigation type" default="accordion" description="">
+            <option value="slide" img="modules/mod_vertical_menu/params/images/slide.png">Slide</option>
+            <option value="drop" img="modules/mod_vertical_menu/params/images/drop.png">Drop-down</option>
+            <option value="tree" img="modules/mod_vertical_menu/params/images/tree.png">Tree</option>
+            <option value="expand" img="modules/mod_vertical_menu/params/images/expand.png">Expanded</option>
+            <option value="accordion" img="modules/mod_vertical_menu/params/images/tree.png">Accordion</option>
+          </param>
+          <param name="position" type="offlajncombine" default="module|*|768||px|*|300||px" label="Menu positioning" description="Don't forget to select a module position from the modal display of pre-defined positions">
+            <param type="offlajnradioimg" name="position" check="conditions" default="sidebar" label="">
+              <option value="module" img="modules/mod_vertical_menu/params/images/module.png">Module position</option>
+              <option value="popup" img="modules/mod_vertical_menu/params/images/popup.png">Pop-up</option>
+              <option value="leftbar" img="modules/mod_vertical_menu/params/images/sidebar.png">Left sidebar</option>
+              <option value="rightbar" img="modules/mod_vertical_menu/params/images/sidebar_right.png">Right sidebar</option>
+              <option value="overlay" img="modules/mod_vertical_menu/params/images/overlay.png">Overlay</option>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" if="modpos" check="conditions" type="offlajntext" label="Force menu to sidebar under">
+              <unit>px</unit>
+            </param>
+            <param if="!overlay" size="3" type="offlajntext" label="Sidebar / Popup width">
+              <unit>px</unit>
+            </param>
+          </param>
+          <param name="overlay" if="overlay" type="offlajncombine" default="100|*|%" label="Overlay" description="">
+            <param type="offlajntext" size="3" label="Items width"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+          </param>
+          <param type="offlajncombine" name="omargin" if="overlay" default="0|*|0|*|0|*|0|*|px" label="Overlay Margin">
+            <param size="2" type="offlajntext" label="Top"/>
+            <param size="2" type="offlajntext" label="Right"/>
+            <param size="2" type="offlajntext" label="Bottom"/>
+            <param size="2" type="offlajntext" label="Left"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+          </param>
+          <param name="maxheight" if="maxheight" type="offlajntext" default="0||px" size="3" label="Menu max-height" description="This parameter has no effect when menu is in sidebar (0 - No limit for height)">
+            <unit>px</unit>
+          </param>
+          <param name="drop" if="drop" type="offlajncombine" default="250||px|*|0||px|*|0|*|mouseenter" label="Submenu" description="">
+            <param size="3" type="offlajntext" label="Width">
+              <unit>px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="Distance">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnonoff" label="Full-height"/>
+            <param type="offlajnlist" label="Open on">
+              <option value="mouseenter">Hover</option>
+              <option value="click">Click</option>
+            </param>
+          </param>
+          <param type="offlajncombine" name="autoopen" if="!modpos" default="0|*|1" label="Auto open menu">
+            <param type="offlajnlist" check="condition" label="Enable">
+              <option value="0">Off</option>
+              <option value="1">Only once</option>
+              <option value="2">On every page load</option>
+            </param>
+            <param type="offlajnonoff" if="autoopen" label="Animate"/>
+          </param>
+          <param name="openbutton" if="openbutton" check="conditions" type="offlajnradio" default="corner" label="Show burger icon in">
+            <option value="corner">Top corner</option>
+            <option value="module">Module position</option>
+          </param>
+          <param name="logo" type="offlajnimagemanager" folder="/images/" default="" label="Logo image"/>
+          <param name="logolink" type="offlajncombine" default="|*|" label="Link for the logo image" description="Set link for the logo image. If you would like custom link, select the custom value, then add the link with the input field.">
+            <param type="offlajnmenuitem" default="" label="Link by menu item">
+              <option value="">[ No link ]</option>
+              <option value="custom">[ Custom ]</option>
+            </param>
+            <param size="25" type="offlajntext" label="Custom link" value="" default=""/>
+          </param>
+          <param name="filter" if="!overlay" check="conditions" type="offlajncombine" default="1|*|500||ms|*|3|*|" label="Filter" description="">
+            <param type="offlajnonoff" label="Enable" onoff="1" description=""/>
+            <param size="3" type="offlajntext" label="Delay" style="float:right;">
+              <unit>ms</unit>
+            </param>
+            <param size="2" type="offlajntext" label="Min-chars" style="float:right;"/>
+            <param size="8" type="offlajntext" label="Label" placeholder="JSEARCH_FILTER_LABEL"/>
+          </param>
+          <param name="back" if="back" type="offlajncombine" default="0|*|Back" label="Back menu-item" description="Insert Back menu-item to sublevels">
+            <param type="offlajnonoff" label="Enable" onoff="1"/>
+            <param size="8" type="offlajntext" label="Label"/>
+          </param>
+          <param name="theme" type="offlajntheme" default="rounded" label="Theme" description=""/>
+        </field>
+        <field name="animationTab" type="offlajntab" label="Animation parameters">
+          <param name="sidebar_anim" if="sidebar" type="offlajnlist" default="1" label="Sidebar animation">
+            <option value="-1">Reduce width</option>
+            <option value="1">Slide in on top</option>
+            <option value="2">Reveal</option>
+            <option value="3">Push</option>
+            <option value="4">Slide along</option>
+            <option value="5">Reverse slide out</option>
+            <option value="6">Rotate pusher</option>
+            <option value="7">3D rotate in</option>
+            <option value="8">3D rotate out</option>
+            <option value="9">Scale down pusher</option>
+            <option value="10">Scale Up</option>
+            <option value="11">Scale &amp; rotate pusher</option>
+            <option value="12">Open door</option>
+            <option value="13">Fall down</option>
+            <option value="14">Delayed 3D Rotate</option>
+          </param>
+          <param name="overlay_anim" if="overlay" type="offlajnlist" default="1" label="Overlay animation">
+            <option value="1">Slide down</option>
+            <option value="2">Scale</option>
+            <option value="3">Genie</option>
+            <option value="4">Content scale</option>
+            <option value="5">Rotate screen</option>
+            <option value="6">Flip top</option>
+            <option value="7">Flip left</option>
+            <option value="9">Flip on Y</option>
+            <option value="10">Flip on X</option>
+            <option value="11">Zoom</option>
+            <option value="12">Flip bottom</option>
+            <option value="13">Scale &amp; slide right</option>
+            <option value="14">Fade</option>
+          </param>
+          <param name="text_anim" if="overlay" type="offlajnlist" default="1" label="Text animation">
+            <option value="0">None</option>
+            <option value="1">Square brackets</option>
+            <option value="2">Underline 1</option>
+            <option value="3">Underline 2</option>
+            <option value="4">Swipe up</option>
+            <option value="5">Push down</option>
+            <option value="6">Fill out</option>
+          </param>
+          <param name="menupreset" if="!drop" type="offlajnskin" default="" size="5" label="Slide transition preset" description="">
+            <slide>
+              <perspective>0||px</perspective>
+              <transition_in>Quad.easeOut|*|50% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|50% 50% 0|*|-100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_out>
+            </slide>
+            <parallax>
+              <perspective>0||px</perspective>
+              <transition_in>Quad.easeOut|*|50% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|50% 50% 0|*|-33|*|%|*|0|*|95||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_out>
+            </parallax>
+            <cube>
+              <perspective>1000||px</perspective>
+              <transition_in>Quad.easeOut|*|50% 50% -50%|*|0|*|px|*|0|*|100||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|50% 50% -50%|*|0|*|px|*|0|*|100||%|*|0||°|*|-90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_out>
+            </cube>
+            <push>
+              <perspective>500||px</perspective>
+              <transition_in>Cubic.easeOut|*|0% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|-90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|0|*|85||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|80||%|*|80||%</transition_out>
+            </push>
+            <flip>
+              <perspective>1000||px</perspective>
+              <transition_in>Circ.easeOut|*|50% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|-20% 50% 0|*|-5|*|%|*|0|*|95||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_out>
+            </flip>
+            <flipflop>
+              <perspective>1500||px</perspective>
+              <transition_in>Quad.easeOut|*|120% 50% 0|*|100|*|%|*|0|*|95||%|*|0||°|*|-90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|-20% 50% 0|*|-5|*|%|*|0|*|95||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_out>
+            </flipflop>
+            <zoom>
+              <perspective>0||px</perspective>
+              <transition_in>Quad.easeOut|*|50% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</transition_in>
+              <transition_out>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|0|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|125||%|*|125||%</transition_out>
+            </zoom>
+          </param>
+          <param name="duration" if="!drop" default="400||ms" size="3" type="offlajntext" label="Duration" description="1 sec = 1000 ms">
+            <unit>ms</unit>
+          </param>
+          <param name="droppreset" if="drop" type="offlajnskin" default="" size="5" label="Drop transition preset" description="">
+            <slide_through>
+              <dropdur>300||ms|*|200||ms|*|</dropdur>
+              <drop_in>Quad.easeOut|*|50% 50% 0|*|-30|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% 0|*|20|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </slide_through>
+            <slide_in>
+              <dropdur>300||ms|*|200||ms|*|</dropdur>
+              <drop_in>Quad.easeOut|*|50% 50% 0|*|30|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% 0|*|20|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </slide_in>
+            <fly_in>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <drop_in>Back.easeOut|*|0% 50% 0|*|80|*|px|*|0|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|0% 50% 0|*|40|*|px|*|0|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </fly_in>
+            <fly_up>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <drop_in>Back.easeOut|*|0% 50% 0|*|0|*|px|*|80||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|0% 50% 0|*|0|*|px|*|40||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </fly_up>
+            <turndown>
+              <dropdur>600||ms|*|500||ms|*|</dropdur>
+              <drop_in>Expo.easeOut|*|10% 50% -100px|*|0|*|px|*|0||px|*|0||%|*|90||°|*|0||°|*|0||°|*|10||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|10% 50% -100px|*|0|*|px|*|0||px|*|0||%|*|-90||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </turndown>
+            <flip_3D>
+              <dropdur>600||ms|*|500||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Expo.easeOut|*|50% 50% -100px|*|-20|*|px|*|0||px|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|-20|*|px|*|0||px|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </flip_3D>
+            <rotate>
+              <droppersp>1000||px</droppersp>
+              <dropdur>300||ms|*|300||ms|*|</dropdur>
+              <drop_in>Quad.easeOut|*|0% 50% 0|*|0|*|px|*|0|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</drop_in>
+              <drop_out>Quad.easeOut|*|0% 50% 0|*|0|*|px|*|0|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%</drop_out>
+            </rotate>
+            <bounce_rotate>
+              <dropdur>900||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Bounce.easeOut|*|50% 50% -100px|*|0|*|px|*|-50||px|*|200||%|*|80||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|0|*|px|*|50||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </bounce_rotate>
+            <newspaper>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Expo.easeOut|*|50% 50% -100px|*|-20|*|px|*|0||px|*|0||%|*|180||°|*|90||°|*|270||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|50|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </newspaper>
+            <elastic>
+              <dropdur>1500||ms|*|200||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Elastic.easeOut|*|0% 20px 0|*|-20|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|60||°|*|0||°|*|0||°|*|40||%|*|40||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% 0|*|20|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </elastic>
+            <skew>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Expo.easeOut|*|50% 50% 0|*|100|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|30||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|50|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </skew>
+            <scale_down>
+              <dropdur>600||ms|*|200||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Expo.easeOut|*|0% 20px 0|*|40|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|150||%|*|150||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|0 20px 0|*|0|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|50||%|*|50||%|*|</drop_out>
+            </scale_down>
+            <flexible_flip>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Back.easeOut|*|50% 50% -100px|*|-50|*|px|*|0||px|*|0||%|*|0||°|*|-90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|50|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </flexible_flip>
+            <flexible_flip_up>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Back.easeOut|*|50% 50% -100px|*|0|*|px|*|-50||px|*|0||%|*|-90||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|50|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </flexible_flip_up>
+            <flexible>
+              <dropdur>600||ms|*|300||ms|*|</dropdur>
+              <droppersp>1000||px</droppersp>
+              <drop_in>Back.easeOut|*|50% 50% 0|*|-50|*|px|*|0||px|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_in>
+              <drop_out>Quad.easeOut|*|50% 50% -100px|*|50|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</drop_out>
+            </flexible>
+          </param>
+          <param name="dropdur" if="drop" type="offlajncombine" default="300||ms|*|300||ms" label="Duration" description="1 sec = 1000 ms">
+            <param size="3" type="offlajntext" label="Open">
+              <unit>ms</unit>
+            </param>
+            <param size="3" type="offlajntext" label="Close">
+              <unit>ms</unit>
+            </param>
+          </param>
+          <param name="iconanim" if="menu_images" type="offlajnonoff" default="0" label="Animate icons"/>
+          <param name="advancedanim" type="offlajnonoff" check="conditions" default="0" label="Advanced settings"/>
+          <param name="perspective" if="advancedslide" default="0||px" size="3" type="offlajntext" label="Perspective" description="0 - No perspective">
+            <unit>px</unit>
+          </param>
+          <param type="offlajncombine" if="advancedslide" name="transition_in" default="Quad.easeOut|*|50% 50% 0|*|100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%" label="Slide-in transition" description="">
+            <param type="offlajnlist" label="Ease &lt;a target='_blank' href='http://www.greensock.com/roughease/'&gt;[ ? ]&lt;/a&gt;">
+              <option value="Linear.easeNone">Linear</option>
+              <option value="Back.easeOut">Back easeOut</option>
+              <option value="Back.easeIn">Back easeIn</option>
+              <option value="Back.easeInOut">Back easeInOut</option>
+              <option value="Bounce.easeOut">Bounce easeOut</option>
+              <option value="Bounce.easeIn">Bounce easeIn</option>
+              <option value="Bounce.easeInOut">Bounce easeInOut</option>
+              <option value="Circ.easeOut">Circ easeOut</option>
+              <option value="Circ.easeIn">Circ easeIn</option>
+              <option value="Circ.easeInOut">Circ easeInOut</option>
+              <option value="Cubic.easeOut">Cubic easeOut</option>
+              <option value="Cubic.easeIn">Cubic easeIn</option>
+              <option value="Cubic.easeInOut">Cubic easeInOut</option>
+              <option value="Elastic.easeOut">Elastic easeOut</option>
+              <option value="Elastic.easeIn">Elastic easeIn</option>
+              <option value="Elastic.easeInOut">Elastic easeInOut</option>
+              <option value="Expo.easeOut">Expo easeOut</option>
+              <option value="Expo.easeIn">Expo easeIn</option>
+              <option value="Expo.easeInOut">Expo easeInOut</option>
+              <option value="Quad.easeOut">Quad easeOut</option>
+              <option value="Quad.easeIn">Quad easeIn</option>
+              <option value="Quad.easeInOut">Quad easeInOut</option>
+              <option value="Quart.easeOut">Quart easeOut</option>
+              <option value="Quart.easeIn">Quart easeIn</option>
+              <option value="Quart.easeInOut">Quart easeInOut</option>
+              <option value="Quint.easeOut">Quint easeOut</option>
+              <option value="Quint.easeIn">Quint easeIn</option>
+              <option value="Quint.easeInOut">Quint easeInOut</option>
+              <option value="Sine.easeOut">Sine easeOut</option>
+              <option value="Sine.easeIn">Sine easeIn</option>
+              <option value="Sine.easeInOut">Sine easeInOut</option>
+            </param>
+            <param size="14" type="offlajntext" label="Transform Origin &lt;a target='_blank' href='http://www.w3schools.com/cssref/css3_pr_transform-origin.asp'&gt;[ ? ]&lt;/a&gt;"/>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="OffsetX"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="OffsetY">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="Opacity">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateZ">
+              <unit>°</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="SkewX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="SkewY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleX">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleY">
+              <unit>%</unit>
+            </param>
+          </param>
+          <param type="offlajncombine" if="advancedslide" name="transition_out" default="Quad.easeOut|*|50% 50% 0|*|-100|*|%|*|0|*|100||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%" label="Slide-out transition" description="">
+            <param type="offlajnlist" label="Ease &lt;a target='_blank' href='http://www.greensock.com/roughease/'&gt;[ ? ]&lt;/a&gt;">
+              <option value="Linear.easeNone">Linear</option>
+              <option value="Back.easeOut">Back easeOut</option>
+              <option value="Back.easeIn">Back easeIn</option>
+              <option value="Back.easeInOut">Back easeInOut</option>
+              <option value="Bounce.easeOut">Bounce easeOut</option>
+              <option value="Bounce.easeIn">Bounce easeIn</option>
+              <option value="Bounce.easeInOut">Bounce easeInOut</option>
+              <option value="Circ.easeOut">Circ easeOut</option>
+              <option value="Circ.easeIn">Circ easeIn</option>
+              <option value="Circ.easeInOut">Circ easeInOut</option>
+              <option value="Cubic.easeOut">Cubic easeOut</option>
+              <option value="Cubic.easeIn">Cubic easeIn</option>
+              <option value="Cubic.easeInOut">Cubic easeInOut</option>
+              <option value="Elastic.easeOut">Elastic easeOut</option>
+              <option value="Elastic.easeIn">Elastic easeIn</option>
+              <option value="Elastic.easeInOut">Elastic easeInOut</option>
+              <option value="Expo.easeOut">Expo easeOut</option>
+              <option value="Expo.easeIn">Expo easeIn</option>
+              <option value="Expo.easeInOut">Expo easeInOut</option>
+              <option value="Quad.easeOut">Quad easeOut</option>
+              <option value="Quad.easeIn">Quad easeIn</option>
+              <option value="Quad.easeInOut">Quad easeInOut</option>
+              <option value="Quart.easeOut">Quart easeOut</option>
+              <option value="Quart.easeIn">Quart easeIn</option>
+              <option value="Quart.easeInOut">Quart easeInOut</option>
+              <option value="Quint.easeOut">Quint easeOut</option>
+              <option value="Quint.easeIn">Quint easeIn</option>
+              <option value="Quint.easeInOut">Quint easeInOut</option>
+              <option value="Sine.easeOut">Sine easeOut</option>
+              <option value="Sine.easeIn">Sine easeIn</option>
+              <option value="Sine.easeInOut">Sine easeInOut</option>
+            </param>
+            <param size="14" type="offlajntext" label="Transform Origin &lt;a target='_blank' href='http://www.w3schools.com/cssref/css3_pr_transform-origin.asp'&gt;[ ? ]&lt;/a&gt;"/>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="OffsetX"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="OffsetY">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="Opacity">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateZ">
+              <unit>°</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="SkewX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="SkewY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleX">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleY">
+              <unit>%</unit>
+            </param>
+          </param>
+          <param name="droppersp" if="advanceddrop" default="1000||px" size="3" type="offlajntext" label="Perspective" description="0 - No perspective">
+            <unit>px</unit>
+          </param>
+          <param type="offlajncombine" if="advanceddrop" name="drop_in" default="Quad.easeOut|*|50% 50% 0|*|-30|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%" label="Open transition" description="">
+            <param type="offlajnlist" label="Ease &lt;a target='_blank' href='http://www.greensock.com/roughease/'&gt;[ ? ]&lt;/a&gt;">
+              <option value="Linear.easeNone">Linear</option>
+              <option value="Back.easeOut">Back easeOut</option>
+              <option value="Back.easeIn">Back easeIn</option>
+              <option value="Back.easeInOut">Back easeInOut</option>
+              <option value="Bounce.easeOut">Bounce easeOut</option>
+              <option value="Bounce.easeIn">Bounce easeIn</option>
+              <option value="Bounce.easeInOut">Bounce easeInOut</option>
+              <option value="Circ.easeOut">Circ easeOut</option>
+              <option value="Circ.easeIn">Circ easeIn</option>
+              <option value="Circ.easeInOut">Circ easeInOut</option>
+              <option value="Cubic.easeOut">Cubic easeOut</option>
+              <option value="Cubic.easeIn">Cubic easeIn</option>
+              <option value="Cubic.easeInOut">Cubic easeInOut</option>
+              <option value="Elastic.easeOut">Elastic easeOut</option>
+              <option value="Elastic.easeIn">Elastic easeIn</option>
+              <option value="Elastic.easeInOut">Elastic easeInOut</option>
+              <option value="Expo.easeOut">Expo easeOut</option>
+              <option value="Expo.easeIn">Expo easeIn</option>
+              <option value="Expo.easeInOut">Expo easeInOut</option>
+              <option value="Quad.easeOut">Quad easeOut</option>
+              <option value="Quad.easeIn">Quad easeIn</option>
+              <option value="Quad.easeInOut">Quad easeInOut</option>
+              <option value="Quart.easeOut">Quart easeOut</option>
+              <option value="Quart.easeIn">Quart easeIn</option>
+              <option value="Quart.easeInOut">Quart easeInOut</option>
+              <option value="Quint.easeOut">Quint easeOut</option>
+              <option value="Quint.easeIn">Quint easeIn</option>
+              <option value="Quint.easeInOut">Quint easeInOut</option>
+              <option value="Sine.easeOut">Sine easeOut</option>
+              <option value="Sine.easeIn">Sine easeIn</option>
+              <option value="Sine.easeInOut">Sine easeInOut</option>
+            </param>
+            <param size="14" type="offlajntext" label="Transform Origin &lt;a target='_blank' href='http://www.w3schools.com/cssref/css3_pr_transform-origin.asp'&gt;[ ? ]&lt;/a&gt;"/>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="OffsetX"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="OffsetY">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="Opacity">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateZ">
+              <unit>°</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="SkewX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="SkewY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleX">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleY">
+              <unit>%</unit>
+            </param>
+          </param>
+          <param type="offlajncombine" if="advanceddrop" name="drop_out" default="Quad.easeOut|*|50% 50% 0|*|20|*|px|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%" label="Close transition" description="">
+            <param type="offlajnlist" label="Ease &lt;a target='_blank' href='http://www.greensock.com/roughease/'&gt;[ ? ]&lt;/a&gt;">
+              <option value="Linear.easeNone">Linear</option>
+              <option value="Back.easeOut">Back easeOut</option>
+              <option value="Back.easeIn">Back easeIn</option>
+              <option value="Back.easeInOut">Back easeInOut</option>
+              <option value="Bounce.easeOut">Bounce easeOut</option>
+              <option value="Bounce.easeIn">Bounce easeIn</option>
+              <option value="Bounce.easeInOut">Bounce easeInOut</option>
+              <option value="Circ.easeOut">Circ easeOut</option>
+              <option value="Circ.easeIn">Circ easeIn</option>
+              <option value="Circ.easeInOut">Circ easeInOut</option>
+              <option value="Cubic.easeOut">Cubic easeOut</option>
+              <option value="Cubic.easeIn">Cubic easeIn</option>
+              <option value="Cubic.easeInOut">Cubic easeInOut</option>
+              <option value="Elastic.easeOut">Elastic easeOut</option>
+              <option value="Elastic.easeIn">Elastic easeIn</option>
+              <option value="Elastic.easeInOut">Elastic easeInOut</option>
+              <option value="Expo.easeOut">Expo easeOut</option>
+              <option value="Expo.easeIn">Expo easeIn</option>
+              <option value="Expo.easeInOut">Expo easeInOut</option>
+              <option value="Quad.easeOut">Quad easeOut</option>
+              <option value="Quad.easeIn">Quad easeIn</option>
+              <option value="Quad.easeInOut">Quad easeInOut</option>
+              <option value="Quart.easeOut">Quart easeOut</option>
+              <option value="Quart.easeIn">Quart easeIn</option>
+              <option value="Quart.easeInOut">Quart easeInOut</option>
+              <option value="Quint.easeOut">Quint easeOut</option>
+              <option value="Quint.easeIn">Quint easeIn</option>
+              <option value="Quint.easeInOut">Quint easeInOut</option>
+              <option value="Sine.easeOut">Sine easeOut</option>
+              <option value="Sine.easeIn">Sine easeIn</option>
+              <option value="Sine.easeInOut">Sine easeInOut</option>
+            </param>
+            <param size="14" type="offlajntext" label="Transform Origin &lt;a target='_blank' href='http://www.w3schools.com/cssref/css3_pr_transform-origin.asp'&gt;[ ? ]&lt;/a&gt;"/>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="OffsetX"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="OffsetY">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="Opacity">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateZ">
+              <unit>°</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="SkewX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="SkewY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleX">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleY">
+              <unit>%</unit>
+            </param>
+          </param>
+          <param type="offlajncombine" if="advancedanim" name="animatemenuitem" default="0|*|500||ms|*|40||ms" label="Animate menu-items separately" description="Animate menu-items separately with a small time shift">
+            <param type="offlajnonoff" check="conditions" default="0" label="Enable" onoff="1" description=""/>
+            <param size="3" type="offlajntext" label="Duration">
+              <unit>ms</unit>
+            </param>
+            <param size="3" type="offlajntext" label="Shift time">
+              <unit>ms</unit>
+            </param>
+          </param>
+          <param name="menuitempreset" if="animatemenuitem" type="offlajnskin" default="" size="5" label="Menu-item transition presets" description="">
+            <slide>
+              <animatemenuitem>1|*|250||ms|*|100||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|15|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </slide>
+            <scale_x>
+              <animatemenuitem>1|*|300||ms|*|100||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|200||%|*|100||%|*|</menuitemtrans>
+            </scale_x>
+            <slide_and_rotate>
+              <animatemenuitem>1|*|400||ms|*|100||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|-35|*|%|*|0||px|*|0||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </slide_and_rotate>
+            <flexible_slide>
+              <animatemenuitem>1|*|500||ms|*|100||ms|*|</animatemenuitem>
+              <menuitemtrans>Back.easeOut|*|0% 50% 0|*|5|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|250||%|*|30||%|*|</menuitemtrans>
+            </flexible_slide>
+            <slide_up>
+              <animatemenuitem>1|*|300||ms|*|80||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|40||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|90||%|*|90||%|*|</menuitemtrans>
+            </slide_up>
+            <rotate_in>
+              <animatemenuitem>1|*|400||ms|*|50||ms|*|</animatemenuitem>
+              <menuitemtrans>Expo.easeOut|*|0% 0% 0|*|-20|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|80||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </rotate_in>
+            <rotate_down>
+              <animatemenuitem>1|*|500||ms|*|50||ms|*|</animatemenuitem>
+              <menuitemtrans>Expo.easeOut|*|50% -200% 0|*|-10|*|%|*|20||px|*|0||%|*|0||°|*|0||°|*|-60||°|*|0||°|*|0||°|*|20||%|*|20||%|*|</menuitemtrans>
+            </rotate_down>
+            <scale>
+              <animatemenuitem>1|*|400||ms|*|50||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% -200% 0|*|0|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|0||%|*|0||%|*|</menuitemtrans>
+            </scale>
+            <flip_up>
+              <animatemenuitem>1|*|400||ms|*|0||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|50||px|*|100||%|*|90||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </flip_up>
+            <scale_up>
+              <animatemenuitem>1|*|400||ms|*|0||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% -20% 0|*|0|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|0||%|*|0||%|*|</menuitemtrans>
+            </scale_up>
+            <scale_down>
+              <animatemenuitem>1|*|400||ms|*|0||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 50% 0|*|0|*|%|*|50||px|*|100||%|*|90||°|*|0||°|*|0||°|*|0||°|*|0||°|*|150||%|*|150||%|*|</menuitemtrans>
+            </scale_down>
+            <flip_right>
+              <animatemenuitem>1|*|400||ms|*|0||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|0% 50% 0|*|0|*|%|*|0||px|*|100||%|*|0||°|*|90||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </flip_right>
+            <open_up>
+              <animatemenuitem>1|*|400||ms|*|0||ms|*|</animatemenuitem>
+              <menuitemtrans>Quad.easeOut|*|50% 0% 0|*|0|*|%|*|0||px|*|0||%|*|-160||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|</menuitemtrans>
+            </open_up>
+          </param>
+          <param type="offlajncombine" if="animatemenuitem" name="menuitemtrans" default="Quad.easeOut|*|50% 50% 0|*|40|*|%|*|0||px|*|0||%|*|0||°|*|0||°|*|0||°|*|0||°|*|0||°|*|100||%|*|100||%|*|" label="Menu-item Transition In" description="">
+            <param type="offlajnlist" label="Ease &lt;a target='_blank' href='http://www.greensock.com/roughease/'&gt;[ ? ]&lt;/a&gt;">
+              <option value="Linear.easeNone">Linear</option>
+              <option value="Back.easeOut">Back easeOut</option>
+              <option value="Back.easeIn">Back easeIn</option>
+              <option value="Back.easeInOut">Back easeInOut</option>
+              <option value="Bounce.easeOut">Bounce easeOut</option>
+              <option value="Bounce.easeIn">Bounce easeIn</option>
+              <option value="Bounce.easeInOut">Bounce easeInOut</option>
+              <option value="Circ.easeOut">Circ easeOut</option>
+              <option value="Circ.easeIn">Circ easeIn</option>
+              <option value="Circ.easeInOut">Circ easeInOut</option>
+              <option value="Cubic.easeOut">Cubic easeOut</option>
+              <option value="Cubic.easeIn">Cubic easeIn</option>
+              <option value="Cubic.easeInOut">Cubic easeInOut</option>
+              <option value="Elastic.easeOut">Elastic easeOut</option>
+              <option value="Elastic.easeIn">Elastic easeIn</option>
+              <option value="Elastic.easeInOut">Elastic easeInOut</option>
+              <option value="Expo.easeOut">Expo easeOut</option>
+              <option value="Expo.easeIn">Expo easeIn</option>
+              <option value="Expo.easeInOut">Expo easeInOut</option>
+              <option value="Quad.easeOut">Quad easeOut</option>
+              <option value="Quad.easeIn">Quad easeIn</option>
+              <option value="Quad.easeInOut">Quad easeInOut</option>
+              <option value="Quart.easeOut">Quart easeOut</option>
+              <option value="Quart.easeIn">Quart easeIn</option>
+              <option value="Quart.easeInOut">Quart easeInOut</option>
+              <option value="Quint.easeOut">Quint easeOut</option>
+              <option value="Quint.easeIn">Quint easeIn</option>
+              <option value="Quint.easeInOut">Quint easeInOut</option>
+              <option value="Sine.easeOut">Sine easeOut</option>
+              <option value="Sine.easeIn">Sine easeIn</option>
+              <option value="Sine.easeInOut">Sine easeInOut</option>
+            </param>
+            <param size="14" type="offlajntext" label="Transform Origin &lt;a target='_blank' href='http://www.w3schools.com/cssref/css3_pr_transform-origin.asp'&gt;[ ? ]&lt;/a&gt;"/>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="OffsetX"/>
+            <param type="offlajnswitcher" label="-">
+              <unit value="%" imsrc="">%</unit>
+              <unit value="px" imsrc="">px</unit>
+            </param>
+            <param size="3" type="offlajntext" label="OffsetY">
+              <unit>px</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="Opacity">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="RotateZ">
+              <unit>°</unit>
+            </param>
+            <param type="offlajnclear"/>
+            <param size="3" type="offlajntext" label="SkewX">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="SkewY">
+              <unit>°</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleX">
+              <unit>%</unit>
+            </param>
+            <param size="3" type="offlajntext" label="ScaleY">
+              <unit>%</unit>
+            </param>
+          </param>
+        </field>
+        <field name="advancedmenuTab" type="offlajntab" label="Advanced Parameters">
+          <param name="caching" type="offlajnonoff" default="0" label="Cache" description=""/>
+          <param name="nojscache" type="offlajnonoff" default="0" label="Don't cache JS files" description=""/>
+          <param name="class_sfx" type="offlajntext" default="" label="MENU_CLASS_SUFFIX" description=""/>
+          <param name="moduleclass_sfx" type="offlajntext" default="" label="MODULE_CLASS_SUFFIX" description=""/>
+          <param name="forcestyle" type="offlajnonoff" default="1" label="Force own module style"/>
+          <param name="fontawesome" type="offlajnonoff" default="0" label="Load Font Awesome icons"/>
+          <param name="jquery" if="!jquery" type="offlajnonoff" default="1" label="Load jQuery on J!2.5" description="Load jQuery library on Joomla! v2.5"/>
+          <param name="ignorejs" type="offlajnonoff" default="1" label="Rocket Loader fix" description="Rocket Loader will ignore the init script in Automatic Mode"/>
+          <param name="hidepopupunder" if="popup" size="3" default="1750||px" type="offlajntext" label="Hide fixed popup menu after scroll under width">
+            <unit>px</unit>
+          </param>
+          <param name="improvedstartlevel" check="conditions" type="offlajnonoff" default="0" label="IMPROVED_START_LEVEL_HANDLING" description=""/>
+          <param name="startLevel" if="improvedstartlevel" type="offlajntext" default="0" size="2" label="START_LEVEL" description=""/>
+          <param name="endLevel" if="improvedstartlevel" type="offlajntext" default="0" size="2" label="END_LEVEL" description=""/>
+          <param name="vmLangFix" if="virtuemart" type="offlajnonoff" default="0" label="Language fix for Virtuemart" description="Enable this parameter if you have issues with multi-lingual menus"/>
+        </field>
+        <field name="othermenuTab" type="offlajntab" label="Module Positions">
+          <param name="show_modulepos" type="offlajnonoff" default="0" label="Show module positions"/>
+          <param name="top_module" type="offlajntext" default="sm-top" label="Top module position" description=""/>
+          <param name="bottom_module" type="offlajntext" default="sm-bottom" label="Bottom module position" description=""/>
+          <param name="custom_module" type="offlajntext" default="sm-" label="Menu item module position prefix" description=""/>
+        </field>
+        <field name="codeTab" type="offlajntab" label="Custom Codes">
+          <param name="custom_css" type="offlajncode" cols="50" rows="16" label="Custom CSS">
+            <code width="270"><![CDATA[ /* hide burger icon Caption under
+   specified screen-width (480px) */
+@media all and (max-width: 480px) {
+  .sm-btn-$id:before { display: none; }
+} ]]></code>
+            <code width="270"><![CDATA[ /* Change the burger-icon
+   to a custom image (use full url) */
+.sm-btn-$id {
+  background: url("sample.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sm-btn-$id span { display: none; } ]]></code>
+          </param>
+          <param name="custom_js" type="offlajncode" cols="50" label="Custom JavaScript">
+          </param>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+  <extendedparams>
+    <p type="offlajnmultiselectlist"/>
+  </extendedparams>
+  <creationDate>2014-11-19</creationDate>
+  <media folder="js" destination="offlajn">
+    <filename>jquery.noconflict.js</filename>
+    <filename>index.html</filename>
+  </media>
+  <license>https://gnu.org/licenses/gpl-2.0.html</license>
+  <releaseDate>2019-06-04</releaseDate>
+  <files>
+    <folder>classes</folder>
+    <folder>core</folder>
+    <folder>helpers</folder>
+    <filename>index.html</filename>
+    <folder>installmsg</folder>
+    <folder>js</folder>
+    <folder>language</folder>
+    <filename module="mod_vertical_menu">mod_vertical_menu.php</filename>
+    <filename>mod_vertical_menu.xml</filename>
+    <folder>params</folder>
+    <folder>template</folder>
+    <folder>themes</folder>
+    <folder>types</folder>
+  </files>
+<hash>Q2Z0DUVHlHL95Tcp+DLt+LfhUKXZUDOLz7Ppy16yhW0=</hash></extension>

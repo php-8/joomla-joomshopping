@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="jshoppingcheckout" method="upgrade">
+	<name>JoomShopping - Ajax cart with related products</name>
+	<author>Garry</author>
+	<creationDate>March, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>Gnu Gpl</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.202.1.1</version>
+	<description><![CDATA[More extensions on the site <a href="https://joom-shopping.com" target="_blank">Joom-shopping.com</a>]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename plugin="ajax_cart_with_related">ajax_cart_with_related.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>       	    	  	     	      	          	

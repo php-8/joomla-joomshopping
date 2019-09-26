@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="jshoppingcheckout" method="upgrade">
+	<name>JoomShopping - Quick Order</name>
+	<author>Garry</author>
+	<creationDate>Oct, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>4.2</version>
+	<description><![CDATA[Bought on <a href="https://joom-shopping.com" target="_blank">joom-shopping.com</a>]]></description>
+	<files>
+		<filename plugin="quickorder">quickorder.php</filename>
+	</files>
+</extension>       	         			        	          	

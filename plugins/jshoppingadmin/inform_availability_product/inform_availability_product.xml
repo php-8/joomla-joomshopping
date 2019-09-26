@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<extension type="plugin" version="1.6" method="upgrade" group="jshoppingadmin">
+	<name>JoomShopping Addon inform availability product</name>
+	<creationDate>06.03.2018</creationDate>
+	<version>1.4.1</version>
+	<author>Garry</author>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<copyright>GNU GPL</copyright>
+	<license>2018. All rights reserved.</license>
+	<description>JoomShopping Addon inform availability product</description> 
+    <files>
+        <filename plugin="inform_availability_product">inform_availability_product.php</filename>
+    </files>
+</extension>

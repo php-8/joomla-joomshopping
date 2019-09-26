@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields addfieldpath="/components/com_jshopping/templates/addons/onestepcheckout/default2cart/params">
+		<fieldset name="template">  
+			<field
+				name="params[message_adress]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_ADRESS"
+				description="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_ADRESS_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[message_payment]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_PAYMENT"
+				description="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_PAYMENT_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[message_shipping]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_SHIPPING"
+				description="JSHOP_ONESTEPCHECKOUT_MESSAGEQUEUE_SHIPPING_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[overlay]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_OVERLAY"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_OVERLAY_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[login_form]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_LOGIN"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_LOGIN_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[step_number]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_STEP_NUMBER"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_STEP_NUMBER_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[step_name]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_STEP_NAME"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_STEP_NAME_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[product_image]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_PRODUCT_IMAGE"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_PRODUCT_IMAGE_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[placeholder]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_PLACEHOLDER"
+				description="JSHOP_ONESTEPCHECKOUT_PLACEHOLDER_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[payment_params]"
+				type="radio"
+				class="radio btn-group"
+				default="1"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_PAYMENT_PARAMS"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_PAYMENT_PARAMS_DESC">
+				<option
+					value="1">JCURRENT</option>
+				<option
+					value="0">JALL</option>
+			</field>
+			<field
+				name="params[shipping_params]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_SHIPPING_PARAMS"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_SHIPPING_PARAMS_DESC">
+				<option
+					value="1">JCURRENT</option>
+				<option
+					value="0">JALL</option>
+			</field>
+			<field
+				name="params[columns_number]"
+				type="integer"
+				class="inputbox"
+				default="3"
+				first="1"
+				last="3"
+				step="1"
+				label="JSHOP_ONESTEPCHECKOUT_COLUMNS_NUMBER"
+				description="JSHOP_ONESTEPCHECKOUT_COLUMNS_NUMBER_DESC"
+			/>
+			<field
+				name="params[package_image]"
+				type="filelist"
+				class="inputbox"
+				default="default"
+				directory="components/com_jshopping/templates/addons/onestepcheckout/default2cart/images"
+				hide_default="1"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_PACKAGE_IMAGE"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_PACKAGE_IMAGE_DESC"
+			/>
+			<field
+				name="params[package_text]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_SHOW_PACKAGE_TEXT"
+				description="JSHOP_ONESTEPCHECKOUT_SHOW_PACKAGE_TEXT_DESC">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_number]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_NUMBER"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_NUMBER">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_subtotal]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SUBTOTAL"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SUBTOTAL">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_discount]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_DISCOUNT"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_DISCOUNT">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_payment]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PAYMENT"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PAYMENT">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_shipping]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SHIPPING"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SHIPPING">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_package]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PACKAGE"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PACKAGE">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_total]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_TOTAL"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_TOTAL">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field
+				name="params[order_products]"
+				type="radio"
+				class="radio btn-group"
+				default="0"
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PRODUCTS"
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PRODUCTS">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+			</field>
+			<field  
+				name="params[order_shipping_desc]" 
+				type="shipping" 
+				default="0"					
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SHIPPING_DESC" 
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_SHIPPING_DESC_DESC" />
+			<field  
+				name="params[order_payment_desc]" 
+				type="payment" 
+				default="0"					
+				label="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PAYMENT_DESC" 
+				description="JSHOP_ONESTEPCHECKOUT_FINISH_ORDER_PAYMENT_DESC_DESC" />
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.5.0" method="upgrade">
+	<name>offlajn_installer</name>
+	<author>Balint Polgarfi</author>
+	<creationDate>2012 January</creationDate>
+	<copyright>2012-2019 Offlajn.com</copyright>
+	<license>https://gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>balint.polgarfi|at|offlajn.com</authorEmail>
+	<authorUrl>https://offlajn.com</authorUrl>
+	<version>1.0</version>
+	<updateservers>
+		<server type="extension" priority="1" name="Offlajn Installer Updates">http://offlajn.com/updates/OfflajnInstaller.xml</server>
+	</updateservers>
+	<scriptfile>install.php</scriptfile>
+	<administration>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>offlajn_installer.php</filename>
+			<folder>extensions</folder>
+			<folder>images</folder>
+		</files>
+	</administration>
+</extension>

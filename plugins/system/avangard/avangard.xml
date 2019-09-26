@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>System - оплата авангард</name>
+	<author>VampiRUS</author>
+	<creationDate>July 2013</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>vamp1rus@yandex.ru</authorEmail>
+	<authorUrl>vampirus.ru</authorUrl>
+	<version>0.1</version>
+	<description>Модуль интернет эквайринга через банк Авангард</description>
+    <scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="avangard">avangard.php</filename>
+	    <folder>sql</folder>
+    </files>
+        <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+   </uninstall>
+	<config/>
+</extension>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<params>
+	 <param name="themeskin" type="offlajnskin" size="5" label="Color scheme" description="">
+			<white_green>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_green.png</preview>
+				<sidebar_icon>#f6f6f6|*|rgba(0, 0, 0, 0.7)|*|37||px|*|0||px|*|0||px|*|0||px|*|0.08em|*|0</sidebar_icon>
+				<bg>#ffffff|*|1|*|33||%</bg>
+				<titlebg>rgba(0, 0, 0, 0)</titlebg>
+				<margin>0|*|0|*|10|*|0|*|px</margin>
+				<borderradius>12|*|12|*|12|*|12|*|px</borderradius>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<menupadding>10||px</menupadding>
+				<titlefont>{"Text":{"type":"latin","size":"26||px","color":"#9cbf3d","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|00000033|*|1","lineheight":"60px","family":"Varela Round","subset":"latin","textdecor":"400"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin","size":"70||px","color":"#9cbf3d","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Varela Round","subset":"latin","textdecor":"400"}}</otitlefont>
+				<filtericon>/modules/mod_vertical_menu/themes/rounded/images/filter/search.svg</filtericon>
+				<reseticon>/modules/mod_vertical_menu/themes/rounded/images/reset/backspace.svg</reseticon>
+				<backicon>/modules/mod_vertical_menu/themes/rounded/images/back/left-arrow.svg</backicon>
+				<level1>1</level1>
+				<level1bg>rgba(255, 255, 255, 0)|*|#9cbf3d|*|#9cbf3d</level1bg>
+				<level1margin>2|*|7|*|2|*|7|*|px</level1margin>
+				<level1br>22|*|22|*|22|*|22|*|px</level1br>
+				<level1padding>10|*|14|*|10|*|24|*|px</level1padding>
+				<level1font>{"Text":{"type":"latin","size":"16||px","color":"#666666","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin","size":"50||px","color":"#666666","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin","size":"12||px","color":"rgba(102,102,102,0.8)","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin","size":"17||px","color":"rgba(102,102,102,0.8)","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1count>#666666|*|#ffffff</level1count>
+				<level1plus>/modules/mod_vertical_menu/themes/rounded/images/arrows/point-to-right.svg|*|right|*|14||px|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_green>
+			<white_lightgreen>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_lightgreen.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#1BB869"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#1BB869"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#1BB869|*|#1BB869</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_lightgreen>
+			<white_sunny>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_sunny.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#F6B63A"}}</titlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#F6B63A|*|#F6B63A</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_sunny>
+			<white_orange>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_orange.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#EF8642"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#EF8642"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#EF8642|*|#EF8642</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_orange>
+			<white_red>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_red.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#E15544"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#E15544"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#E15544|*|#E15544</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_red>
+			<white_magenta>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_magenta.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#bf4e79"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#bf4e79"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#bf4e79|*|#bf4e79</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_magenta>
+			<white_purple>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_purple.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#8868c9"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#8868c9"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#8868c9|*|#8868c9</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_purple>
+			<white_lightblue>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_lightblue.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#2699c8"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#2699c8"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#2699c8|*|#2699c8</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_lightblue>
+			<white_darkblue>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/white_darkblue.png</preview>
+				<bg>#ffffff|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#3c5569"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#3c5569"}}</otitlefont>
+				<filtercolor>rgba(0, 0, 0, 0.15)|*|#666666</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#3c5569|*|#3c5569</level1bg>
+				<level1font>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1font>
+				<level1ofont>{"Text":{"color":"#666666"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(102,102,102,0.8)"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#666666|*|#666666|*|#666666</level1plus>
+			</white_darkblue>
+			<green>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/green.png</preview>
+				<bg>#91c517|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#91c517"},"Hover":{"color":"#91c517"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#91c517"},"Hover":{"color":"#91c517"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(145, 197, 23, 0.8)"},"Hover":{"color":"rgba(145, 197, 23, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(145, 197, 23, 0.8)"},"Hover":{"color":"rgba(145, 197, 23, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#91c517|*|#91c517</level1plus>
+			</green>
+			<lightgreen>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/lightgreen.png</preview>
+				<bg>#0dc167|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#0dc167"},"Hover":{"color":"#0dc167"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#0dc167"},"Hover":{"color":"#0dc167"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(13, 193, 103, 0.8)"},"Hover":{"color":"rgba(13, 193, 103, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(13, 193, 103, 0.8)"},"Hover":{"color":"rgba(13, 193, 103, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#0dc167|*|#0dc167</level1plus>
+			</lightgreen>
+			<sunny>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/sunny.png</preview>
+				<bg>#fbb52d|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#fbb52d"},"Hover":{"color":"#fbb52d"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#fbb52d"},"Hover":{"color":"#fbb52d"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(251, 181, 45, 0.8)"},"Hover":{"color":"rgba(251, 181, 45, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(251, 181, 45, 0.8)"},"Hover":{"color":"rgba(251, 181, 45, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#fbb52d|*|#fbb52d</level1plus>
+			</sunny>
+			<orange>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/orange.png</preview>
+				<bg>#f77d2e|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#f77d2e"},"Hover":{"color":"#f77d2e"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#f77d2e"},"Hover":{"color":"#f77d2e"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(247, 125, 46, 0.8)"},"Hover":{"color":"rgba(247, 125, 46, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(247, 125, 46, 0.8)"},"Hover":{"color":"rgba(247, 125, 46, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#f77d2e|*|#f77d2e</level1plus>
+			</orange>
+			<red>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/red.png</preview>
+				<bg>#ec412e|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#ec412e"},"Hover":{"color":"#ec412e"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#ec412e"},"Hover":{"color":"#ec412e"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(236, 65, 46, 0.8)"},"Hover":{"color":"rgba(236, 65, 46, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(236, 65, 46, 0.8)"},"Hover":{"color":"rgba(236, 65, 46, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#ec412e|*|#ec412e</level1plus>
+			</red>
+			<magenta>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/magenta.png</preview>
+				<bg>#d63170|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#d63170"},"Hover":{"color":"#d63170"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#d63170"},"Hover":{"color":"#d63170"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(214, 49, 112, 0.8)"},"Hover":{"color":"rgba(214, 49, 112, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(214, 49, 112, 0.8)"},"Hover":{"color":"rgba(214, 49, 112, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#d63170|*|#d63170</level1plus>
+			</magenta>
+			<purple>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/purple.png</preview>
+				<bg>#6d32e4|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#6d32e4"},"Hover":{"color":"#6d32e4"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#6d32e4"},"Hover":{"color":"#6d32e4"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(109, 50, 228, 0.8)"},"Hover":{"color":"rgba(109, 50, 228, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(109, 50, 228, 0.8)"},"Hover":{"color":"rgba(109, 50, 228, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#6d32e4|*|#6d32e4</level1plus>
+			</purple>
+			<lightblue>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/lightblue.png</preview>
+				<bg>#25a3ef|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#25a3ef"},"Hover":{"color":"#25a3ef"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#25a3ef"},"Hover":{"color":"#25a3ef"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(37, 163, 239, 0.8)"},"Hover":{"color":"rgba(37, 163, 239, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(37, 163, 239, 0.8)"},"Hover":{"color":"rgba(37, 163, 239, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#25a3ef|*|#25a3ef</level1plus>
+			</lightblue>
+			<darkblue>
+				<preview>modules/mod_vertical_menu/params/images/rounded_skins/darkblue.png</preview>
+				<bg>#165486|*|**|*|**</bg>
+				<titlefont>{"Text":{"color":"#ffffff"}}</titlefont>
+				<otitlefont>{"Text":{"color":"#ffffff"}}</otitlefont>
+				<filtercolor>rgba(255, 255, 255, 0.15)|*|#ffffff</filtercolor>
+				<level1bg>rgba(255, 255, 255, 0)|*|#ffffff|*|#ffffff</level1bg>
+				<level1font>{"Text":{"color":"#ffffff"},"Active":{"color":"#165486"},"Hover":{"color":"#165486"}}</level1font>
+				<level1ofont>{"Text":{"color":"#ffffff"},"Active":{"color":"#165486"},"Hover":{"color":"#165486"}}</level1ofont>
+				<level1descfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(22, 84, 134, 0.8)"},"Hover":{"color":"rgba(22, 84, 134, 0.8)"}}</level1descfont>
+				<level1odescfont>{"Text":{"color":"rgba(255,255,255,0.8)"},"Active":{"color":"rgba(22, 84, 134, 0.8)"},"Hover":{"color":"rgba(22, 84, 134, 0.8)"}}</level1odescfont>
+				<level1plus>**|*|**|*|**|*|#ffffff|*|#165486|*|#165486</level1plus>
+			</darkblue>
+		</param>
+		<param name="fontskin" type="offlajnskin" size="5" label="Font scheme" description="">
+			<inherit>
+				<titlefont>{"Text":{"type":"0","size":"26||px","afont":"inherit||1","textdecor":"400"}}</titlefont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","afont":"inherit||1","textdecor":"700"}}</otitlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","afont":"inherit||1","textdecor":"400"}}</level1font>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","afont":"inherit||1","textdecor":"700"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","afont":"inherit||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","afont":"inherit||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"inherit||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"inherit||1"}}</roundfont>
+			</inherit>
+			<arial>
+				<titlefont>{"Text":{"type":"0","size":"26||px","afont":"Arial||1","textdecor":"400"}}</titlefont>
+				<otitlefont>{"Text":{"type":"0","size":"70||px","afont":"Arial||1","textdecor":"700"}}</otitlefont>
+				<level1font>{"Text":{"type":"0","size":"16||px","afont":"Arial||1","textdecor":"400"}}</level1font>
+				<level1ofont>{"Text":{"type":"0","size":"50||px","afont":"Arial||1","textdecor":"700"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"0","size":"13||px","afont":"Arial||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"0","size":"17||px","afont":"Arial||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"Arial||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"Arial||1"}}</roundfont>
+			</arial>
+			<varela_round>
+				<titlefont>{"Text":{"type":"latin",family:"Varela Round","size":"26||px","afont":"sans-serif||1","textdecor":"400"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Varela Round","size":"70||px","afont":"sans-serif||1","textdecor":"400"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Varela Round","size":"16||px","afont":"sans-serif||1","textdecor":"400"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Varela Round","size":"50||px","afont":"sans-serif||1","textdecor":"400"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Varela Round","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Varela Round","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</varela_round>
+			<open_sans>
+				<titlefont>{"Text":{"type":"latin",family:"Open Sans","size":"26||px","afont":"sans-serif||1","textdecor":"300"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Open Sans","size":"70||px","afont":"sans-serif||1","textdecor":"700"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Open Sans","size":"16||px","afont":"sans-serif||1","textdecor":"300"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Open Sans","size":"50||px","afont":"sans-serif||1","textdecor":"700"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Open Sans","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Open Sans","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</open_sans>
+			<roboto>
+				<titlefont>{"Text":{"type":"latin",family:"Roboto","size":"26||px","afont":"sans-serif||1","textdecor":"300"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Roboto","size":"70||px","afont":"sans-serif||1","textdecor":"900"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Roboto","size":"16||px","afont":"sans-serif||1","textdecor":"300"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Roboto","size":"50||px","afont":"sans-serif||1","textdecor":"900"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Roboto","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Roboto","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</roboto>
+			<lato>
+				<titlefont>{"Text":{"type":"latin",family:"Lato","size":"26||px","afont":"sans-serif||1","textdecor":"300"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Lato","size":"70||px","afont":"sans-serif||1","textdecor":"900"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Lato","size":"16||px","afont":"sans-serif||1","textdecor":"300"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Lato","size":"50||px","afont":"sans-serif||1","textdecor":"900"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Lato","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Lato","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</lato>
+			<oswald>
+				<titlefont>{"Text":{"type":"latin",family:"Oswald","size":"26||px","afont":"sans-serif||1","textdecor":"300"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Oswald","size":"70||px","afont":"sans-serif||1","textdecor":"700"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Oswald","size":"16||px","afont":"sans-serif||1","textdecor":"300"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Oswald","size":"50||px","afont":"sans-serif||1","textdecor":"700"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Oswald","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Oswald","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</oswald>
+			<lora>
+				<titlefont>{"Text":{"type":"latin",family:"Lora","size":"26||px","afont":"sans-serif||1","textdecor":"400"}}</titlefont>
+				<otitlefont>{"Text":{"type":"latin",family:"Lora","size":"70||px","afont":"sans-serif||1","textdecor":"700"}}</otitlefont>
+				<level1font>{"Text":{"type":"latin",family:"Lora","size":"16||px","afont":"sans-serif||1","textdecor":"400"}}</level1font>
+				<level1ofont>{"Text":{"type":"latin",family:"Lora","size":"50||px","afont":"sans-serif||1","textdecor":"700"}}</level1ofont>
+				<level1descfont>{"Text":{"type":"latin",family:"Lora","size":"13||px","afont":"sans-serif||1","textdecor":"400"}}</level1descfont>
+				<level1odescfont>{"Text":{"type":"latin",family:"Lora","size":"17||px","afont":"sans-serif||1","textdecor":"400"}}</level1odescfont>
+				<squarefont>{"Text":{"type":"0","afont":"sans-serif||1"}}</squarefont>
+				<roundfont>{"Text":{"type":"0","afont":"sans-serif||1"}}</roundfont>
+			</lora>
+		</param>
+
+		<param name="sitebg" if="sitebg" type="offlajnminicolor" default="#444444" label="Color behind the site" description="The background color behind the site during 3D sidebar effect" />
+		<param name="hideburger" if="burger" check="conditions" type="offlajnonoff" default="0" label="Hide burger icon" description="Hides burger icon, except on small devices." />
+		<param type="offlajncombine" if="burger" name="sidebar_icon" default="#f6f6f6|*|rgba(0, 0, 0, 0.7)|*|37||px|*|0||px|*|0||px|*|0||px|*|0.08em|*|0" label="Burger icon" description="">
+			<param type="offlajnminicolor" label="Color" description="" />
+			<param type="offlajnminicolor" alpha="1" size="15" label="Background color" description="" />
+			<param size="2" type="offlajntext" label="Size"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param if="leftbutton" size="2" type="offlajntext" label="Distance from left"><unit>px</unit></param>
+			<param if="corner" size="2" type="offlajntext" label="Distance from top"><unit>px</unit></param>
+			<param if="rightbutton" size="2" type="offlajntext" label="Distance from right"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param type="offlajnlist" label="Line width">
+				<option value="0.08em">Normal</option>
+				<option value="0.1em">Bold</option>
+				<option value="3px">Thin</option>
+				<option value="2px">Ultra thin</option>
+			</param>
+			<param type="offlajnonoff" label="Rounded"/>
+		</param>
+		<param type="offlajncombine" if="openbutton" name="burgertitle" default="0|*|MENU|*|28||px|*|13||px|*|vertical" label="Burger icon title">
+			<param type="offlajnonoff" check="conditions" label="Enable"/>
+			<param type="offlajntext" if="burgertitle" label="Title"/>
+			<param type="offlajntext" if="!burgertitle_small" size="2" label="Font-size"><unit>px</unit></param>
+			<param type="offlajntext" if="burgertitle_small" size="2" label="Font-size"><unit>px</unit></param>
+			<param type="offlajnclear" />
+			<param type="offlajnradioimg" if="burgertitle" check="conditions" label="-">
+				<option value="vertical" img="modules/mod_vertical_menu/params/images/vertical.png">Vertical</option>
+				<option value="horizontal" img="modules/mod_vertical_menu/params/images/horizontal.png">Horizontal</option>
+				<option value="rotated" img="modules/mod_vertical_menu/params/images/rotated.png">Rotated</option>
+				<option value="small" img="modules/mod_vertical_menu/params/images/small.png">Small</option>
+			</param>
+		</param>
+		<param name="bgimg" type="offlajnimagemanager" folder="/images/backgrounds/" label="Menu background-image" />
+		<param type="offlajncombine" name="bg" default="#ffffff|*|1|*|33||%" label="Menu background" description="OffsetX: Background image offset when the user navigates to a sublevel.">
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+			<param type="offlajnclear" />
+			<param type="offlajnonoff" onoff="1" label="Animation" />
+			<param type="offlajntext" size="2" label="OffsetX"><unit>%</unit></param>
+		</param>
+		<param type="offlajncombine" name="margin" if="modpos" default="0|*|0|*|10|*|0|*|px" label="Menu Margin" description="">
+			<param size="2" type="offlajntext" label="Top"/>
+			<param size="2" type="offlajntext" label="Right"/>
+			<param size="2" type="offlajntext" label="Bottom"/>
+			<param size="2" type="offlajntext" label="Left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param type="offlajncombine" name="borderradius" if="borderradius" default="12|*|12|*|12|*|12|*|px" label="Menu border-radius" description="">
+			<param size="2" type="offlajntext" label="Top-left"/>
+			<param size="2" type="offlajntext" label="Top-right"/>
+			<param size="2" type="offlajntext" label="Bottom-right"/>
+			<param size="2" type="offlajntext" label="Bottom-left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param type="offlajncombine" name="boxshadow" if="boxshadow" default="0||px|*|10||px|*|20||px|*|0||px|*|rgba(0, 0, 0, 0.1)" label="Menu box-shadow" description="">
+			<param size="2" type="offlajntext" label="Vertical"><unit>px</unit></param>
+			<param size="2" type="offlajntext" label="Horizontal"><unit>px</unit></param>
+			<param size="2" type="offlajntext" label="Blur"><unit>px</unit></param>
+			<param size="2" type="offlajntext" label="Spread"><unit>px</unit></param>
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+		</param>
+		<param name="titlefont" if="!overlay" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"26||px","color":"#9cbf3d","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|00000033|*|1","lineheight":"60px","family":"Varela Round","subset":"latin","textdecor":"400"}}' label="TITLE_FONT" description="" />
+		<param name="otitlefont" if="overlay" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"latin","size":"70||px","color":"#9cbf3d","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.1)|*|1|*|","lineheight":"90px","family":"Varela Round","subset":"latin","textdecor":"400"}}' label="TITLE_FONT" description="" />
+		<param name="titlebg" type="offlajnminicolor" alpha="1" default="rgba(0, 0, 0, 0)" label="Title background"/>
+		<param name="filtercolor" if="filter" type="offlajncombine" default="rgba(0, 0, 0, 0.15)|*|#666666" label="Filter" description="">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+		</param>
+		<param name="filtericon" if="filter" type="offlajnimagemanager" folder="/images/filter/" default="/modules/mod_vertical_menu/themes/rounded/images/filter/search.svg" label="Filter Icon" />
+		<param name="reseticon" if="filter" type="offlajnimagemanager" folder="/images/reset/" default="/modules/mod_vertical_menu/themes/rounded/images/reset/backspace.svg" label="Reset Icon" />
+		<param name="backicon" if="back" type="offlajnimagemanager" folder="/images/back/" default="/modules/mod_vertical_menu/themes/rounded/images/back/left-arrow.svg" label="Back Icon" />
+		<param name="xicon" type="offlajncombine" default="0|*|#666666|*|right" label="Close Icon" description="">
+			<param type="offlajnonoff" onoff="1" label="Enable" />
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+			<param type="offlajnlist" label="Position">
+				<option value="right">Top Right</option>
+				<option value="left">Top Left</option>
+			</param>
+		</param>
+		<param name="menupadding" size="2" type="offlajntext" default="10||px" label="Menu padding"><unit>px</unit></param>
+		<param name="opened" if="tree" type="offlajnonoff" default="1" label="Highlight opened items" description=""/>
+		<param name="badge" check="conditions" type="offlajnonoff" default="0" label="Enable badges"/>
+		<param name="squarebadge" if="badge" type="offlajncombine" default="#EF3D43" label="Square badge">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+		</param>
+		<param name="squarefont" if="badge" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"0","size":"10||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"","subset":"latin"}}' label="&lt;br&gt;" />
+		<param name="roundbadge" if="badge" type="offlajncombine" default="#EF3D43" label="Rounded badge">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+		</param>
+		<param name="roundfont" if="badge" type="offlajnminifont" tabs="Text" alpha="1" default='{"Text":{"type":"0","size":"10||px","color":"#ffffff","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|0||px|*|1||px|*|rgba(0, 0, 0, 0.20)|*|0","lineheight":"18px","textdecor":"700","family":"","subset":"latin"}}' label="&lt;br&gt;" />
+		<param name="badgeradius" if="badge" type="offlajncombine" default="4|*|4|*|4|*|4|*|px" label="Badge border-radius">
+			<param size="2" type="offlajntext" label="Top-left"/>
+			<param size="2" type="offlajntext" label="Top-right"/>
+			<param size="2" type="offlajntext" label="Bottom-right"/>
+			<param size="2" type="offlajntext" label="Bottom-left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="%">%</unit>
+				<unit value="px">px</unit>
+			</param>
+		</param>
+		<param name="level" type="offlajnlevel" label="LEVEL_SETTINGS" description="" />
+	</params>
+
+	<params group="level">
+		<param name="level[x]" type="hidden" default="[x]" label="" description=""/>
+		<param type="offlajncombine" name="level[x]bg" default="rgba(255, 255, 255, 0)|*|#9cbf3d|*|#9cbf3d" label="Menu-item background" description="">
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+			<param type="offlajnminicolor" alpha="1" label="Active" />
+			<param type="offlajnminicolor" alpha="1" label="Hover" />
+		</param>
+		<param type="offlajncombine" name="level[x]margin" default="2|*|7|*|2|*|7|*|px" label="Menu-item margin" description="">
+			<param size="2" type="offlajntext" label="Top"/>
+			<param size="2" type="offlajntext" label="Right"/>
+			<param size="2" type="offlajntext" label="Bottom"/>
+			<param size="2" type="offlajntext" label="Left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param type="offlajncombine" name="level[x]br" default="22|*|22|*|22|*|22|*|px" label="Menu-item border-radius" description="">
+			<param size="2" type="offlajntext" label="top-left"/>
+			<param size="2" type="offlajntext" label="top-right"/>
+			<param size="2" type="offlajntext" label="bottom-right"/>
+			<param size="2" type="offlajntext" label="bottom-left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param type="offlajncombine" name="level[x]padding" default="10|*|14|*|10|*|24|*|px" label="Menu-item padding" description="">
+			<param size="2" type="offlajntext" label="Top"/>
+			<param size="2" type="offlajntext" label="Right"/>
+			<param size="2" type="offlajntext" label="Bottom"/>
+			<param size="2" type="offlajntext" label="Left"/>
+			<param type="offlajnswitcher" label="-">
+				<unit value="px" imsrc="">px</unit>
+				<unit value="em" imsrc="">em</unit>
+			</param>
+		</param>
+		<param name="level[x]font" if="!overlay" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"16||px","color":"#666666","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}' label="Menu-item font" />
+		<param name="level[x]ofont" if="overlay" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"50||px","color":"#666666","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|rgba(0, 0, 0, 0.09)|*|1|*|","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"#ffffff"},"Hover":{"color":"#ffffff"}}' label="Menu-item font" />
+		<param name="level[x]descfont" if="desc" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"12||px","color":"rgba(102,102,102,0.8)","italic":"0","underline":"0","align":"left","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}' label="Description font" />
+		<param name="level[x]odescfont" if="overlaydesc" tabs="Text|Active|Hover" alpha="1" type="offlajnminifont" default='{"Text":{"type":"latin","size":"17||px","color":"rgba(102,102,102,0.8)","italic":"0","underline":"0","align":"center","afont":"sans-serif||1","tshadow":"0||px|*|1||px|*|2||px|*|#000000|*|0","lineheight":"normal","family":"Varela Round","subset":"latin","textdecor":"400"},"Active":{"color":"rgba(255,255,255,0.8)"},"Hover":{"color":"rgba(255,255,255,0.8)"}}' label="Description font" />
+		<param type="offlajncombine" name="level[x]count" if="displaynumprod" default="#666666|*|#ffffff" label="Sub-items count">
+			<param type="offlajnminicolor" alpha="1" label="Background" />
+			<param type="offlajnminicolor" alpha="1" label="Color" />
+		</param>
+		<param type="offlajncombine" name="level[x]plus" default="/modules/mod_vertical_menu/themes/rounded/images/arrows/point-to-right.svg|*|right|*|14||px|*|#666666|*|#666666|*|#666666" label="Arrow">
+			<param type="offlajnimagemanager" folder="/images/arrows/" label="Icon" />
+			<param type="offlajnclear"/>
+			<param type="offlajnlist" label="Position">
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+			</param>
+			<param type="offlajntext" size="2" label="Size"><unit>px</unit></param>
+			<param type="offlajnclear"/>
+			<param type="offlajnminicolor" alpha="1" label="Color"/>
+			<param type="offlajnminicolor" alpha="1" label="Active"/>
+			<param type="offlajnminicolor" alpha="1" label="Hover"/>
+		</param>
+	</params>
+</theme>

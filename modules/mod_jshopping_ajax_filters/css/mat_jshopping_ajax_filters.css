@@ -1,0 +1,83 @@
+.range_slider_output input {
+    height: 20px !important;
+    width: 100%;
+}
+.fprice_left_box, .fprice_right_box {
+    float: left;
+    width: 50%;
+}
+.range_slider_output {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+.fprice_from {
+    text-align: left;
+}
+.fprice_from, .fprice_to {
+    margin: 0;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.fprice_to {
+    text-align: right;
+}
+.filter_price {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.range_slider {
+    margin-right: 7px;
+	margin-left: 7px;
+}
+.jshop_filters .clear_filter {
+    display: block;
+    font-size: 14px;
+}
+.clear_filter a {
+    color: #72cdd1;
+	border: none;
+}
+.ui-state-focus{
+	border: none !important;
+}
+.range_slider a:focus{
+    border: none;
+	color: none;
+}
+.range_slider a:active {
+	color: none;
+}
+.clear_filter a:focus{
+    color: #72cdd1;
+}
+.ui-widget-header {
+    border: none !important;
+    background: #e81746 !important;
+    color: #e81746;
+    font-weight: bold;
+}
+.ui-widget-content {
+    border: none !important;
+    background: #fff;
+    color: #333;
+}
+.ui-slider-horizontal {
+    height: 0.5em;
+    padding-top: 10px;
+}
+.icheckbox_polaris, .iradio_polaris {
+    margin-left: -6px;
+}
+.mat_spinner {
+    background: url(../images/default.gif) no-repeat center center;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -7px;
+}

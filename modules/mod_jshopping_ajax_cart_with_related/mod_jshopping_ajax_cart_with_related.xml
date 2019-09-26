@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="module" client="site" method="upgrade">
+	<name>JoomShopping - Ajax cart with related products</name>
+	<author>Garry</author>
+	<creationDate>March, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>Gnu Gpl</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.202.1.1</version>
+	<description><![CDATA[More extensions on the site <a href="https://joom-shopping.com" target="_blank">Joom-shopping.com</a>]]></description>
+
+	<files>
+		<filename module="mod_jshopping_ajax_cart_with_related">mod_jshopping_ajax_cart_with_related.php</filename>
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">  
+				<field
+					name="in_cart"
+					type="radio"
+					class="radio btn-group"
+					default="1"
+					label="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_IN_CART"
+					description="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_IN_CART_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="after_add"
+					type="radio"
+					class="radio btn-group"
+					default="1"
+					label="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_AFTER_ADD"
+					description="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_AFTER_ADD_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="link_category"
+					type="radio"
+					class="radio btn-group"
+					default="1"
+					label="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_LINK_CATEGORY"
+					description="MOD_JSHOPPING_AJAX_CART_WITH_RELATED_LINK_CATEGORY">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>     
+</extension>       	    	  	     	      	          	

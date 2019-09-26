@@ -1,0 +1,64 @@
+.userCart td{
+	background-color: #FFFBE6 !important;
+}
+.userCartInfo{
+	position:relative;
+	display:inline-block;
+	cursor: pointer;
+}
+.userCartInfo:before{
+	display:inline-block;
+	width:12px;
+	height:13px;
+	margin:0 13px 0 0;
+	content: url("data:image/gif;base64,R0lGODlhDAANAMQXAD8/P9XV1WVlZeTk5MnJya+vr/Ly8peXl7y8vNfX1ycnJ4mJiePj4yUlJU1NTTExMZ2dnR4eHnFxcZaWlhkZGf///zMzM////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABcALAAAAAAMAA0AAAU/4CWOY0BRZAoBlXK+byNcgmXf93EteI9chR5ucEkIbY7KpQI4SkaVqJQ5SZECD8KIAaNELAZoxSIlK0nnJSkEADs=");
+	vertical-align:middle;
+}
+.userCartInfo>span{
+	display:none;
+	position:absolute;
+	bottom:100%;
+	background-color:#ffffff;
+	left:0;
+	margin:0 0 -5px 5px;
+	padding: 10px 20px;
+	border:1px solid #fcfcfc;
+	box-shadow:0 0 3px #777;
+	max-height:200px;
+	overflow:auto;
+	z-index:9999;
+}
+.userCartInfo>span table td{
+	white-space: pre;
+}
+.userWishlistInfo{
+	position:relative;
+	display:inline-block;
+	cursor: pointer;
+}
+.userWishlistInfo:before{
+	display:inline-block;
+	width:12px;
+	height:13px;
+	margin:0 13px 0 0;
+        opacity:0.5;
+	content: url("data:image/gif;base64,R0lGODlhDAANAMQXAD8/P9XV1WVlZeTk5MnJya+vr/Ly8peXl7y8vNfX1ycnJ4mJiePj4yUlJU1NTTExMZ2dnR4eHnFxcZaWlhkZGf///zMzM////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABcALAAAAAAMAA0AAAU/4CWOY0BRZAoBlXK+byNcgmXf93EteI9chR5ucEkIbY7KpQI4SkaVqJQ5SZECD8KIAaNELAZoxSIlK0nnJSkEADs=");
+	vertical-align:middle;
+}
+.userWishlistInfo>span{
+	display:none;
+	position:absolute;
+	bottom:100%;
+	background-color:#ffffff;
+	left:0;
+	margin:0 0 -5px 5px;
+	padding: 10px 20px;
+	border:1px solid #fcfcfc;
+	box-shadow:0 0 3px #777;
+	max-height:200px;
+	overflow:auto;
+	z-index:9999;
+}
+.userWishlistInfo>span table td{
+	white-space: pre;
+}

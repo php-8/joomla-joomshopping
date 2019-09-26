@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0.0" type="plugin" method="upgrade" group="jshoppingproducts">
+	<name>JoomShopping - Title Products</name>
+	<creationDate>03.03.2018</creationDate>
+	<author>Garry</author>
+	<copyright>Copyright 2018 All rights reserved!</copyright>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>PLG_JS_TITLE_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="js_title">js_title.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_jshoppingproducts_js_title.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.plg_jshoppingproducts_js_title.sys.ini</language>
+    </languages>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+				
+                <field name="titles" type="textarea"
+                               default=""
+                               description="PLG_JS_TITLE_FIELD_DESC_PREV"
+                               label="PLG_JS_TITLE_FIELD_LABEL_PREV"
+                               size="50"
+                />	
+                <field name="titlesafter" type="textarea"
+                               default=""
+                               description="PLG_JS_TITLE_FIELD_DESC_AFTER"
+                               label="PLG_JS_TITLE_FIELD_LABEL_AFTER"
+                               size="50"
+                />	
+				
+            </fieldset>
+        </fields>
+    </config>
+</extension>

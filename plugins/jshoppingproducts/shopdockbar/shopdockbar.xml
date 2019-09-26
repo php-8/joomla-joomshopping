@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="jshoppingproducts" method="upgrade">
+	<name>JoomShopping - Shop Dock Bar</name>
+	<author>Garry</author>
+	<creationDate>March, 2018</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+    <version>3.70.4.0</version>
+	<description><![CDATA[More extensions on <a href="http://joom-shopping.com" target="_blank">joom-shopping.com</a>]]></description>
+	<files>
+		<filename plugin="shopdockbar">shopdockbar.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

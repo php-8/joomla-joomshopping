@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0"   client="site" method="upgrade">
+	<name>Jshopping Login</name>
+	<author>MAXXmarketing GmbH</author> 
+	<creationDate>20.12.2012</creationDate>
+	<authorEmail>marketing@maxx-marketing.net</authorEmail>
+    <authorUrl>http://www.webdesigner-profi.de</authorUrl>
+    <copyright></copyright>
+    <license>Open Source License, GNU GPL</license>
+    <version>4.0.2</version>
+    <description>Displays a JoomShopping Login</description>
+	<files>
+        <filename module="mod_jshopping_login">mod_jshopping_login.php</filename>
+        <filename>tmpl/default.php</filename>
+	<filename>helper.php</filename>
+	</files>
+    <languages>
+        <language
+            tag="en-GB">en-GB.mod_jshopping_login.ini</language>
+		<language
+            tag="de-DE">de-DE.mod_jshopping_login.ini</language>
+		<language
+            tag="ru-RU">ru-RU.mod_jshopping_login.ini</language>
+    </languages>      
+    <config>
+        <fields name="params">
+            <fieldset name="basic">            
+                <field
+                    name="pretext"
+                    type="textarea"
+                    cols="30"
+                    rows="5"
+                    label="PRE-TEXT"
+                    description="PARAMPRETEXT" />                      
+                <field
+                    name="posttext"
+                    type="textarea"
+                    cols="30"
+                    rows="5"
+                    label="POST-TEXT"
+                    description="PARAMPOSTTEXT" />   
+                <field
+                    name="login"
+                    type="menuitem"
+                    default=""
+                    disable="separator"
+                    label="LOGIN_REDIRECTION_URL"
+                    description="PARAMLOGINREDIRECTURL" 
+                    state="1" > 
+                    <option
+                        value="">JDEFAULT</option>
+                </field>                      
+                <field
+                    name="logout"
+                    type="menuitem"
+                    default=""
+                    disable="separator"
+                    label="LOGOUT_REDIRECTION_URL"
+                    description="PARAMLOGOUTREDIRECTURL" 
+                    state="1" >  
+                    <option
+                        value="">JDEFAULT</option>
+                </field>                                                                                    
+                <field
+                    name="greeting"
+                    type="radio"
+                    default="1"
+                    label="GREETING"
+                    description="SHOW_HIDE_THE_SIMPLE_GREETING_TEXT">
+                    <option
+                        value="0">JNO</option>
+                    <option
+                        value="1">JYES</option>
+                </field>
+                <field
+                    name="name"
+                    type="list"
+                    default="0"
+                    label="NAME_USERNAME"
+                    description="SELECT_NAME_USERNAME">
+                        <option value="0">USERNAME</option>
+                        <option value="1">NAME</option>
+                </field> 
+                <field
+                    name="usesecure"
+                    type="radio"
+                    default="0"
+                    label="ENCRYPT_LOGIN_FORM"
+                    description="SUBMIT_ENCRYPTED_LOGIN_DATA_REQUIRES_SSL">
+                    <option
+                        value="0">JNO</option>
+                    <option
+                        value="1">JYES</option>
+                </field>  
+                <field
+                    name="cache"
+                    type="list"
+                    default="1"
+                    label="CACHING"
+                    description="SELECT_WHETHER_TO_CACHE_THE_CONTENT_OF_THIS_MODULE">
+                    <option
+                        value="0">NO CACHING</option>
+                </field>                               
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config> 
+</extension>

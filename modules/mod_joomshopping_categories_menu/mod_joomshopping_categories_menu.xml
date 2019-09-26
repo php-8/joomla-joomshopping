@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module"
+    version="1.0"
+    client="site"
+    method="upgrade">
+<name>JoomShopping Categories Menu</name> 
+	<creationDate>01.07.2017</creationDate>
+    <author>Matblunic</author>
+    <authorEmail>matblunic@gmail.com</authorEmail>
+    <authorUrl>http://matblunic.com</authorUrl>
+    <copyright></copyright>
+    <version>1.0</version>
+	<description>Displays a menu of categories in shop.</description>
+	<files>
+	<filename module="mod_joomshopping_categories_menu">mod_joomshopping_categories_menu.php</filename>
+        <filename>tmpl/default.php</filename>
+		<folder>css/</folder>
+        <folder>js/</folder>
+	</files>
+    <languages>
+        <language
+            tag="en-GB">en-GB.mod_joomshopping_categories_menu.ini</language>
+    </languages>     
+    <config>
+        <fields name="params">
+            <fieldset name="basic">   
+				<field
+                    name="display_count"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="1"
+                    label="DISPLAY_COUNT"
+                    description="DISPLAY_COUNT_DESC">
+                     <option
+                        value="0">MAT_NO</option>
+                    <option
+                        value="1">MAT_YES</option>                       
+                </field> 		
+
+				<field
+                    name="load_jquery"
+                    type="radio" class="btn-group btn-group-yesno"
+                    default="0"
+                    label="LOAD_JQUERY"
+                    description="LOAD_JQUERY_DESC">
+                     <option
+                        value="0">MAT_NO</option>
+                    <option
+                        value="1">MAT_YES</option>                       
+                </field> 
+				
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>     
+</extension>

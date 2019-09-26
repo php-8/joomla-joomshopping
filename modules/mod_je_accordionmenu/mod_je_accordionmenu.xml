@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="module" client="site"  method="upgrade">
+	<name>JE Accordion Menu</name> 
+    <version>3.4</version>
+    <creationDate>February, 2015</creationDate>
+    <author>jExtensions.com</author>
+    <authorEmail>support@jExtensions.com</authorEmail>
+    <authorUrl>http://jExtensions.com</authorUrl>
+    <copyright>Copyright 2015 - jExtensions.com</copyright>
+    <license>GNU/GPL</license>
+	<description><![CDATA[	
+	<h1 class="sub-heading">JE Accordion Menu</h1>	
+	<div class="description">Download more free extensions from <a href="http://jextensions.com/" target="_blank">jExtensions.com</a><br/>
+	Need help? <a href="http://jextensions.com/free-accordion-menu-joomla-2.5/" target="_blank">Click here to visit the support page</a>.<br/>
+	</div>
+		]]>
+	</description>
+		
+	<files>
+		<filename module="mod_je_accordionmenu">mod_je_accordionmenu.php</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>php</folder>
+		<filename>helper.php</filename>
+		<filename>color.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_je_accordionmenu.xml</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_accordionmenu/php">					
+			<fieldset name="basic">
+			<field name="jQuery" type="list" default="0" label="jQuery" description="Enable or Disable the latest jQuery version. Make sure that jQuery is loaded only once on your website.">
+				<option value="0">Disable</option>
+				<option	value="1">Enable</option>
+			</field>
+					
+				<field name="menutype" type="menu" label="Select Menu" description="Choose a menu to display." />				
+
+				<field name="menulinkcolor" type="jscolor" default="#ffffff" label="Menu Link Color" description="" />
+				<field name="menucolor" type="jscolor" default="#35a9e7" label="Menu Background Color" description="" />
+				
+				<field name="menulinkcolorsub" type="jscolor" default="#ffffff" label="Sub-Menu Link Color" description="" />
+				<field name="menucolorsub" type="jscolor" default="#49525e" label="Sub-Menu Background Color" description="" />
+				
+				<field name="fontStyle" type="text" default="Open+Sans" label="Google Font Style" description="" />	
+				
+				<field name="accordion" type="list" default="mouseenter" label="Star Accordion" description="Choose when you want to start the accordion animation.">
+					<option value="mouseenter">On Hover</option>
+					<option value="click">On Click</option>
+				</field>
+				<field name="speed" type="list" default="normal" label="Animation Speed" description="Accordion animation speed.">
+					<option value="slow">Slow</option>
+					<option value="normal">Normal</option>
+					<option value="fast">Fast</option>
+				</field>	
+											
+				<field name="startLevel" type="list" default="1" label="Start Level" description="Menu start level.">
+					<option value="0">JALL</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field name="endLevel" type="list" default="0" label="End Level" description="Menu end level.">
+					<option value="0">JALL</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field type="asset" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="Module Class Suffix"/>
+				
+				<field	name="cache" type="list" default="1" label="Caching" >
+					<option value="1">Use Global</option>
+					<option value="0">No Caching</option>
+				</field>
+				
+				<field	name="cache_time" type="text" default="900" label="Cache Time" />
+				
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

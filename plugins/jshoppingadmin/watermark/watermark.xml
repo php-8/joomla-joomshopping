@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="jshoppingadmin">
+	<name>jshopping watermark</name>
+	<creationDate>09.02.2018</creationDate>
+	<version>3.2.0</version>
+	<author>None</author>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<copyright>2018. All resived</copyright>
+	<license>GNU GPL</license>
+	<description>Add watermark for product images</description>
+	<files>
+            <filename plugin="watermark">watermark.php</filename>
+	</files>
+    
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="image1" type="imagelist" directory="images" default="" label="Watermark Thumb image" description="Watermark Thumb image" />
+                <field name="image2" type="imagelist" directory="images" default="" label="Watermark Middle image" description="Watermark Middle image" />
+                <field name="image3" type="imagelist" directory="images" default="" label="Watermark Full image" description="Watermark Full image" />
+                <field
+                    name="position_x"
+                    type="list"
+                    default="2"
+                    description="Horizontal position"
+                    label="Horizontal position"
+                >
+                    <option value="1">Left</option>
+                    <option value="0">Center</option>
+                    <option value="2">Right</option>
+                </field>
+                <field name="indent_x" type="text" default="5" label="Horizontal indent" description="Horizontal indent" />
+                <field
+                    name="position_y"
+                    type="list"
+                    default="2"
+                    description="Vertical position"
+                    label="Vertical position"
+                >
+                    <option value="1">Top</option>
+                    <option value="0">Middle</option>
+                    <option value="2">Bottom</option>
+                </field>
+                <field name="indent_y" type="text" default="5" label="Vertical indent" description="Vertical indent" />
+                <field name="quality" type="text" default="85" label="Image quality" description="Image quality (0-100)" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

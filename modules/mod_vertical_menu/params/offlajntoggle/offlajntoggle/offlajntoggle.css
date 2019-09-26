@@ -1,0 +1,16 @@
+.offlajntoggle {
+  display: inline-block;
+  cursor: pointer;
+  background-position: 0 0;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.offlajntoggle.ot-active {
+  background-position: 0 bottom;
+}
+.offlajntoggle.ot-active,
+.offlajntoggle:hover {
+  opacity: 1;
+}

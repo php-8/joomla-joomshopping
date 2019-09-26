@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="jshopping" method="upgrade">
+	<name>JoomShopping - Boxberry</name>
+	<author>Nevigen.com</author>
+	<creationDate>February, 2019</creationDate>
+	<copyright>Copyright © Nevigen.com. All rights reserved.</copyright>
+	<license>Proprietary. Copyrighted Commercial Software</license>
+	<authorEmail>support@nevigen.com</authorEmail>
+	<authorUrl>https://nevigen.com/</authorUrl>
+	<version>5.2</version>
+	<description><![CDATA[Developed & Powered by <a href="https://nevigen.com/" target="_blank">Nevigen.com</a>]]></description>
+	<files>
+		<filename plugin="boxberry">boxberry.php</filename>
+		<folder>language</folder>
+		<folder>params</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/plugins/jshopping/boxberry/params">
+			<fieldset name="basic">  
+				<field name="api_key" type="text" label="PLG_JSHOPPING_BOXBERRY_API_KEY" />
+				<field name="api_token" type="text" label="PLG_JSHOPPING_BOXBERRY_API_TOKEN" />
+				<field name="city_id" type="text" label="PLG_JSHOPPING_BOXBERRY_CITY_ID" />
+				<field
+					name="margin_type"
+					type="radio"
+					class="radio btn-group"
+					default="1"
+					label="PLG_JSHOPPING_BOXBERRY_MARGIN_TYPE"
+					description="PLG_JSHOPPING_BOXBERRY_MARGIN_TYPE_DESC">
+					<option
+						value="1">PLG_JSHOPPING_BOXBERRY_MARGIN_TYPE_1</option>
+					<option
+						value="2">PLG_JSHOPPING_BOXBERRY_MARGIN_TYPE_2</option>
+				</field>
+				<field name="margin_value" type="text" label="PLG_JSHOPPING_BOXBERRY_MARGIN_VALUE" />
+				<field name="courier_id" type="shippings" label="PLG_JSHOPPING_BOXBERRY_COURIER_ID" />
+				<field name="pvz_id" type="shippings" label="PLG_JSHOPPING_BOXBERRY_PVZ_ID" />
+				<field name="payment_id" type="payments" label="PLG_JSHOPPING_BOXBERRY_PAYMENT_ID" />
+				<field name="status_id" type="orderstatus" label="PLG_JSHOPPING_BOXBERRY_STATUS_ID" />
+				<field name="cancel_status_id" type="orderstatus" label="PLG_JSHOPPING_BOXBERRY_CANCEL_STATUS_ID" />
+				<field
+					name="order_type"
+					type="radio"
+					class="radio btn-group"
+					default="id"
+					label="PLG_JSHOPPING_BOXBERRY_ORDER_TYPE"
+					description="PLG_JSHOPPING_BOXBERRY_ORDER_TYPE_DESC">
+					<option
+						value="id">PLG_JSHOPPING_BOXBERRY_ORDER_TYPE_ID</option>
+					<option
+						value="number">PLG_JSHOPPING_BOXBERRY_ORDER_TYPE_NUMBER</option>
+				</field>
+				<field
+					name="product_type"
+					type="radio"
+					class="radio btn-group"
+					default="id"
+					label="PLG_JSHOPPING_BOXBERRY_PRODUCT_TYPE"
+					description="PLG_JSHOPPING_BOXBERRY_PRODUCT_TYPE_DESC">
+					<option
+						value="id">PLG_JSHOPPING_BOXBERRY_PRODUCT_TYPE_ID</option>
+					<option
+						value="ean">PLG_JSHOPPING_BOXBERRY_PRODUCT_TYPE_EAN</option>
+				</field>
+				<field
+					name="weight_type"
+					type="radio"
+					class="radio btn-group"
+					default="kg"
+					label="PLG_JSHOPPING_BOXBERRY_WEIGHT_TYPE"
+					description="">
+					<option
+						value="kg">PLG_JSHOPPING_BOXBERRY_WEIGHT_TYPE_KG</option>
+					<option
+						value="gr">PLG_JSHOPPING_BOXBERRY_WEIGHT_TYPE_GR</option>
+				</field>
+				<field name="depth_id" type="extrafields" label="PLG_JSHOPPING_BOXBERRY_SIZE_DEPTH" description="PLG_JSHOPPING_BOXBERRY_SIZE_DEPTH_DESC" />
+				<field name="width_id" type="extrafields" label="PLG_JSHOPPING_BOXBERRY_SIZE_WIDTH" description="PLG_JSHOPPING_BOXBERRY_SIZE_WIDTH_DESC" />
+				<field name="height_id" type="extrafields" label="PLG_JSHOPPING_BOXBERRY_SIZE_HEIGHT" description="PLG_JSHOPPING_BOXBERRY_SIZE_HEIGHT_DESC" />
+				<field
+					name="size_type"
+					type="radio"
+					class="radio btn-group"
+					default="sm"
+					label="PLG_JSHOPPING_BOXBERRY_SIZE_TYPE"
+					description=""
+					showon="depth_id!:0[AND]width_id!:0[AND]height_id!:0">
+					<option
+						value="mm">PLG_JSHOPPING_BOXBERRY_SIZE_TYPE_MM</option>
+					<option
+						value="sm">PLG_JSHOPPING_BOXBERRY_SIZE_TYPE_SM</option>
+					<option
+						value="m">PLG_JSHOPPING_BOXBERRY_SIZE_TYPE_M</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>	   
+	<updateservers>
+		<server type="extension" priority="1" name="Nevigen - Boxberry">https://nevigen.com/updateservers/boxberry.xml</server>
+	</updateservers>
+</extension>        	 	      	     	      	          	

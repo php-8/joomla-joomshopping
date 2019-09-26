@@ -1,0 +1,271 @@
+/* SlideOutMenu Start */
+
+main.panel {
+    background: #fff;
+}
+
+nav.menu {
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    nav.menu {
+        display: block;
+    }
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 2;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+
+.btn-hamburger {
+    border: none;
+    outline: none;
+    background: transparent;
+    float: left;
+}
+
+.c-hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+    margin-top: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.c-hamburger:focus {
+    outline: none;
+}
+
+.c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    right: 0px;
+    height: 6px;
+    background: #292929;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #292929;
+    content: "";
+}
+
+.c-hamburger span::before {
+    top: -14px;
+}
+
+.c-hamburger span::after {
+    bottom: -14px;
+}
+
+.c-hamburger span {
+    transition: background 0s 0.3s;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger span::before {
+    transition-property: top, transform;
+}
+
+.c-hamburger span::after {
+    transition-property: bottom, transform;
+}
+
+.slideout-open .c-hamburger span {
+    background: none !important;
+}
+
+.slideout-open .c-hamburger span::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.slideout-open .c-hamburger span::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+.slideout-open .c-hamburger span::before,
+.slideout-open .c-hamburger span::after {
+    transition-delay: 0s, 0.3s;
+}
+
+.panel-header {
+    width: 100%;
+    height: 78px;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background: #efefef;
+    border-bottom: 1px solid #292929;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    display: none;
+    position: fixed;
+    backface-visibility: hidden;
+}
+
+.panel-header .logo {
+    position: absolute;
+    left: 46%;
+    margin-left: -136px;
+    top: 18px;
+    font-size: 0;
+}
+
+.panel-header .logo a {
+    text-decoration: none;
+}
+
+.panel-header .logo img {
+    height: 43px;
+}
+
+.panel-header .info {
+    float: right;
+    margin-right: 15px;
+    padding-top: 14px;
+}
+
+.panel-header .phone {}
+
+.panel-header .phone a {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 256px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    background: #efefef;
+    border-right: 1px solid #292929;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav.menu ul {
+    margin-bottom: 15px;
+}
+
+nav.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+nav.menu li.current-menu-item > a {
+    text-decoration: underline;
+}
+
+nav.menu .module {
+    margin-bottom: 20px;
+}
+
+nav.menu .module a {
+    display: block;
+    text-decoration: none;
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+nav.menu .lvl2 {
+    margin-left: 20px;
+}
+
+nav.menu .lvl2 dl {
+    margin-bottom: 15px;
+}
+
+nav.menu .lvl2 dt {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav.menu .lvl2 a {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+nav.menu .social {
+    padding-left: 10px;
+}
+
+nav.menu .social a {
+    font-size: 0;
+}
+
+nav.menu .social a + a {
+    margin-left: 5px;
+}
+
+nav.menu {
+    display: none;
+}
+
+nav.menu li ul a {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+nav.menu li ul {
+    margin-bottom: 20px;
+}
+
+nav.menu li ul ul a {
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+
+/* SlideOutMenu End */

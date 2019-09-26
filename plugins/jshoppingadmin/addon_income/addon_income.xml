@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" method="upgrade" group="jshoppingadmin">
+	<name>JoomShopping Income</name>
+	<creationDate>02.03.2018</creationDate>
+	<version>1.0.6</version>
+	<author>Garry</author>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<copyright>Copyright (C) 2018. All rights reserved.</copyright>
+	<license>Gnu Gpl</license>
+	<description>JoomShopping Income</description>
+	<files>
+		<filename plugin="addon_income">addon_income.php</filename>
+	</files>
+</extension>

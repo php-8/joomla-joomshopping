@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>JoomShopping Verify Email and Login</name>
+	<creationDate>06.03.2018</creationDate>
+	<author>Garry</author>
+	<copyright>Copyright 2018 All rights reserved!</copyright>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com</authorUrl>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>JoomShopping Verify Email and Login - plugin to verify the existence of email and login with customer registration</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="js_verify_email">js_verify_email.php</filename>
+		
+    </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

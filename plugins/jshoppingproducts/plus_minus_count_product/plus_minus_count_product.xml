@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="jshoppingproducts">
+	<name>JoomShopping - Plus and Minus Count Product</name>
+	<author>Meling Vadim</author>
+	<creationDate>22.05.2014</creationDate>
+	<copyright>Copyright by Linfuby. All rights reserved.</copyright>
+	<license>The MIT License (MIT)</license>
+	<authorEmail>support@linfuby.com</authorEmail>
+	<authorUrl>http://linfuby.com/</authorUrl>
+    <version>2.0</version>
+	<description>Plus and Minus Count Product</description>
+	<files>
+		<filename plugin="plus_minus_count_product">plus_minus_count_product.php</filename>
+	</files>
+</extension>
